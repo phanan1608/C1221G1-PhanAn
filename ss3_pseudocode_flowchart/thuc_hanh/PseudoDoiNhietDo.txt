@@ -1,0 +1,8 @@
+BEGIN
+ a:random from 0-9
+ INPUT: b
+ IF a=b
+  DISPLAY Đúng
+ ELSE 
+  DISPLAY Sai
+END

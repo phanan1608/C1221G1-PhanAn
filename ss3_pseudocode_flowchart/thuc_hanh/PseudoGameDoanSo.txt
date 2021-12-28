@@ -1,0 +1,5 @@
+BEGIN
+ INPUT C
+ F=(9*5)/5+32
+ Display F
+END
