@@ -1,0 +1,20 @@
+BEGIN
+ INPUT a: số điểm
+ IF a>=75
+  DISPLAY "Loại A"
+ ELSE
+   IF a >= 60
+    DISPLAY "Loại B"
+   ELSE 
+     IF a >= 45
+      DISPLAY "Loại C"
+     ELSE
+       IF a>=35
+        DISPLAY "loại D"
+       ELSE
+        DISPLAY "loại E
+       END IF
+     END IF
+   END IF
+  END IF
+END 
