@@ -13,8 +13,5 @@ BEGIN
         DISPLAY "loại D"
        ELSE
         DISPLAY "loại E
-       END IF
-     END IF
-   END IF
-  END IF
+ END IF
 END 
