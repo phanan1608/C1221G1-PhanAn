@@ -1,0 +1,5 @@
+BEGIN
+ INPUT Số tiền Đô la Mỹ
+ VNĐ = Số tiền Đô la Mỹ * 23000
+ DISPLAY VNĐ
+END

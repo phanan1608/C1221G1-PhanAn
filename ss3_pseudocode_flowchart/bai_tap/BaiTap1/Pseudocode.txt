@@ -1,0 +1,5 @@
+BEGIN
+ INPUT Toan, Ly, Hoa
+ Avg = (Toan + Ly + Hoa) / 3
+ DISPLAY Avg
+END

@@ -1,0 +1,12 @@
+BEGIN
+ INPUT a,b,c
+ IF a>b AND a>c
+    DISPLAY "a là số lớn nhất"
+ ELSE
+    IF b>c
+     DISPLAY "b là số lớn nhất"
+    ElSE
+     DISPLAY "c là số lớn nhất"
+    END IF
+ END IF
+END
