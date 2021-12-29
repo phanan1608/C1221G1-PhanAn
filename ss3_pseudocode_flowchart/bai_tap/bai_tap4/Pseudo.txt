@@ -1,0 +1,17 @@
+BEGIN
+ INPUT n= số lượng dãy số
+ INPUT a1, a2, a3, ... an
+ max = a1
+ i=2
+ WHILE (i<=n)
+ DO
+   IF ai>max
+     max = ai
+   END IF
+     i = i+1
+ END DO
+ DISPLAY max
+END
+
+
+  
