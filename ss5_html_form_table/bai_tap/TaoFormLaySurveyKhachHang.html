@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo form lấy survey</title>
+</head>
+<body>
+    <form action="">
+        <h2>Market Research Survey</h2>
+        <h3>Please take a few moments to complete this satisfaction survey.</h3>
+        <label for="age">What is your age range?</label> <br>
+        <select name="age" id="age">
+            <option value="18to24">18-24</option>
+            <option value="25to34">25-34</option>
+            <option value="35to50">35-50</option>
+            <option value="50plus">50+</option>
+        </select> <br>
+        <label for="income">What is your yearly income range?</label> <br>
+        <select name="income" id="income">
+            <option value="0to25000">$0 - $25000</option>
+            <option value="25001to50000">$25001 - $50000</option>
+            <option value="50000to100000">$50001 - $100000</option>
+            <option value="100000plus">$100000+</option>
+        </select> <br>
+        <label> Gender Identity</label> <br>
+        <input type="radio"; name="gender"; value="male" > Male <br>
+        <input type="radio"; name="gender"; value="female" > Female <br>
+        <input type="radio"; name="gender"; value="nonbinary" > Nonbinary <br>
+        <input type="radio"; name="gender"; value="other" > Other <br>
+        <input type="text"> <br>
+        <label>Which of the following products have your purchased in the last 2 months. Please check all that apply.</label>
+        <br>
+        <input type="checkbox"; name="product"; value="product1"> Product1 <br>
+        <input type="checkbox"; name="product"; value="product2"> Product2 <br>
+        <input type="checkbox"; name="product"; value="product3"> Product3 <br>
+        <label>How often would you use our new product?</label> <br>
+        <input type="radio"; name="useoften"; value="daily"> Daily <br>
+        <input type="radio"; name="useoften"; value="weekly"> Weekly <br>
+        <input type="radio"; name="useoften"; value="monthly"> Monthly <br>
+        <label for="pay">What would you pay for the new product?</label> <br>
+        $ <input type="text"; id="pay"> . <input type="text"> <br>
+        <label for="like">What features would you like to see in the new product.</label> <br>
+        <textarea id="like" name="like"; rows="10" cols="50" ></textarea> <br>
+        <label for="agrement">Please rate your level of agreement with the following statements.</label>
+        <table id="agrement"; border="1px">
+            <tr>
+                <th> </th>
+                <th>Strongly Disagree</th>
+                <th>Disagree</th>
+                <th>Agree</th>
+                <th>Strongly Agree</th>
+            </tr>
+            <tr>
+                <td>Our products are priced fairly.</td>
+                <td> <input type="radio"; name="price"; value="1">1 </td>
+                <td> <input type="radio"; name="price"; value="2">2 </td>
+                <td> <input type="radio"; name="price"; value="3">3 </td>
+                <td> <input type="radio"; name="price"; value="4">4 </td>
+            </tr>
+            <tr>
+                <td>Our products are high quality.</td>
+                <td> <input type="radio"; name="quality"; value="1">1 </td>
+                <td> <input type="radio"; name="quality"; value="2">2 </td>
+                <td> <input type="radio"; name="quality"; value="3">3 </td>
+                <td> <input type="radio"; name="quality"; value="4">4 </td>
+            </tr>
+            <tr>
+                <td>You would recommend our product to a friend or coworker.</td>
+                <td> <input type="radio"; name="recommend"; value="1">1 </td>
+                <td> <input type="radio"; name="recommend"; value="2">2 </td>
+                <td> <input type="radio"; name="recommend"; value="3">3 </td>
+                <td> <input type="radio"; name="recommend"; value="4">4 </td>
+            </tr>
+        </table>
+        <br>
+        <input type="button"; value="Submit">
+
+
+    </form>
+
+
+</body>
+</html>
