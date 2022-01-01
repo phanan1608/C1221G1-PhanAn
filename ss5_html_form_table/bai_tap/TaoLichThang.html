@@ -4,17 +4,71 @@
     <meta charset="UTF-8">
     <title>Lịch tháng</title>
     <style>
+        * {
+            font-family: SVN-Gotham;
+            font-weight: bold ;
+            font-size: 24px;
+        }
+        h1{text-align: center;
+        font-size: 30px;
+        color: blue}
+
         table {
             text-align: center;
-            border: 1px;
-            height: 400px;
-            width: 1000px;
+            border-collapse: collapse;
+            width: 100%;
         }
+
+        tr:not(:nth-child(2)) > td {
+            border: 1px black solid
+        }
+
+        tr:first-child > td {
+            border: 1px white solid
+        }
+
+        tr:first-child {
+            background: orange;
+            border: 1px white solid;
+
+        }
+
+        tr:nth-child(2) > td {
+            font-family: Baloo;
+                  }
+
+
+        tr:first-child > td:first-child {
+            background: red
+        }
+
+        tr:first-child > td:last-child {
+            background: blue
+        }
+
+        tr:not(:first-child) > td:nth-child(1) {
+            color: red;
+        }
+
+        tr:not(:first-child) > td:nth-child(7) {
+            color: blue
+        }
+
+        sub {
+            color: black;
+            font-size: 15px
+        }
+
+        tr:first-child {
+            color: white
+        }
+
 
     </style>
 </head>
 <body>
-<table border="1px" ; width="50%">
+<table>
+    <h1>Tháng 10 - October</h1>
     <tr>
         <td>C.nhật</td>
         <td>T.Hai</td>

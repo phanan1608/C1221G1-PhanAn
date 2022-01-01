@@ -4,37 +4,56 @@
     <meta charset="UTF-8">
     <title>Tạo Form ĐƠn Giản 2</title>
     <style>
+        .input {
+            position: absolute;
+            left: 100px
+
+
+        }
+
+        div {
+            position: absolute;
+            left: 100px
+        }
 
     </style>
 </head>
 <body>
-    <form action="">
-        <h2>ĐĂNG KÝ HỌC VIÊN</h2>
-        <label for="Name">Họ và tên </label>
-        <input type="text"; id="name";> <br>
-        <label for="birthday">Ngày sinh</label>
-        <input type="text"; id="birthday";> <br>
-        <label for="">Giới tính</label>
-        <input type="radio"; id="gender"; name="gender"; value="men">Nam
-        <input type="radio"; id="gender"; name="gender"; value="women">Nữ <br>
-        <label for="">Địa chỉ</label>
-        <input type="text"; id="address"> <br>
-        <label for="class">Lớp</label>
-        <select name="class" id="class";>
-            <option value="choseclass">-Chọn lớp</option>
-            <option value="class1">Lớp1</option>
-            <option value="class2">Lớp2</option>
-            <option value="class3">Lớp3</option>
-            <option value="class4">Lớp4</option>
-            <option value="class5">Lớp5</option>
-            <option value="class6">Lớp6</option>
-        </select> <br>
-        <label for="email">Email</label>
-        <input type="text"; id="email"> <br>
-        <label for="phone">Điện thoại</label>
-        <input type="text"; id="phone"> <br>
-        <input type="button"; value="Đăng ký";>
-        <input type="reset"; value="Nhập lại";>
-    </form>
+<form action="">
+    <h2>ĐĂNG KÝ HỌC VIÊN</h2>
+    <label for="Name">Họ và tên </label>
+    <label for="name"></label><input type="text" ; id="name" ; class="input"> <br>
+    <label for="birthday">Ngày sinh</label>
+    <input type="text" ; id="birthday" ; class="input">
+    <br>
+    <label>Giới tính</label>
+    <input type="radio" ; id="gender" ; name="gender" ; value="men" ;>Nam
+    <input type="radio" ; id="gender" ; name="gender" ; value="women" ;>Nữ
+    <br> <br>
+    <label>Địa chỉ</label>
+    <input type="text" ; id="address" ; class="input">
+    <br>
+    <label for="class">Lớp</label>
+    <select name="class" id="class" ; class="input">
+        <option value="choseclass">-Chọn lớp</option>
+        <option value="class1">Lớp1</option>
+        <option value="class2">Lớp2</option>
+        <option value="class3">Lớp3</option>
+        <option value="class4">Lớp4</option>
+        <option value="class5">Lớp5</option>
+        <option value="class6">Lớp6</option>
+    </select>
+    <br>
+    <label for="email">Email</label>
+    <input type="text" ; id="email" ; class="input">
+    <br>
+    <label for="phone">Điện thoại</label>
+    <input type="text" ; id="phone" ; class="input">
+    <br>
+    <div>
+        <input type="button" ; value="Đăng ký" ;>
+        <input type="reset" ; value="Nhập lại" ;>
+    </div>
+</form>
 </body>
 </html>
