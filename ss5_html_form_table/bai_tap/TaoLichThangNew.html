@@ -6,19 +6,22 @@
     <style>
         * {
             font-family: SVN-Gotham;
-            font-size: 18px;
+            font-size: 22px;
         }
-        h1{text-align: center;
-        font-size: 30px;
-        color: blue}
 
-        td{width: 70px;
-        height: 36px}
+        h1 {
+            text-align: center;
+            font-size: 40px;
+            color: blue
+        }
+
+        td {
+            width: 100px;
+            height: 50px
+        }
 
         table {
-            position: ;
             text-align: center;
-            border-collapse: collapse;
             margin: auto;
         }
 
@@ -26,45 +29,40 @@
             border: 1px black solid
         }
 
-        tr:first-child > td {
-            border: 1px white solid
-        }
-
-        tr:first-child {
+        th {
             background: orange;
+            color: white;
             border: 1px white solid;
+            height: 45px;
 
         }
 
         tr:nth-child(2) > td {
             font-family: Baloo;
-                  }
+        }
 
-
-        tr:first-child > td:first-child {
+        th:first-child {
             background: red
         }
 
-        tr:first-child > td:last-child {
+        th:last-child {
             background: blue
         }
 
-        tr:not(:first-child) > td:nth-child(1) {
+        tr > td:nth-child(1) {
             color: red;
         }
 
-        tr:not(:first-child) > td:nth-child(7) {
+        tr > td:nth-child(7) {
             color: blue
         }
 
         sub {
             color: black;
-            font-size: 10px;
+            font-size: 12px;
         }
 
-        tr:first-child {
-            color: white
-        }
+
 
 
     </style>
@@ -73,13 +71,13 @@
 <table>
     <h1>Tháng 10 - October</h1>
     <tr>
-        <td>C.Nhật</td>
-        <td>T.Hai</td>
-        <td>T.Ba</td>
-        <td>T.Tư</td>
-        <td>T.Năm</td>
-        <td>T.Sáu</td>
-        <td>T.Bảy</td>
+        <th>C.Nhật</th>
+        <th>T.Hai</th>
+        <th>T.Ba</th>
+        <th>T.Tư</th>
+        <th>T.Năm</th>
+        <th>T.Sáu</th>
+        <th>T.Bảy</th>
     </tr>
     <tr>
         <td>Sun</td>
