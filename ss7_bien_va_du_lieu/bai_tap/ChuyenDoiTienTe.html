@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyển đổi tiền tệ</title>
+</head>
+<body>
+<h1>Ứng dụng chuyển dổi tiền tệ</h1>
+<form action="">
+    <strong><label for="amount">Amout</label></strong> <br>
+    <input type="text" ; id="amount" ; placeholder="Nhập số tiền"> <br>
+    <strong><label for="fromCurrency">From Currency</label></strong> <br>
+    <select name="fromCurrency" id="fromCurrency">
+        <option value="vietnam">VNĐ</option>
+        <option value="usd">USD</option>
+    </select> <br>
+    <strong><label for="toCurrency">to Currency</label></strong> <br>
+    <select name="toCurrency" id="toCurrency">
+        <option value="vietnam">VNĐ</option>
+        <option value="usd">USD</option>
+    </select> <br> <br>
+    <div id="convert"></div>
+    <button type="button" onclick="convert()">Convert</button>
+    <br>
+</form>
+<script>
+    // if (document.getElementById('fromCurrency').value = 'usd') {
+    //     if (document.getElementById('toCurrency').value = 'vietnam') {
+    function convert() {
+        let money = document.getElementById('amount').value
+        let amountMoney = parseFloat(money)
+        result = amountMoney * 23000
+        document.getElementById('convert').innerText = 'Kết quả:' + result + "VNĐ"
+    }
+    // }
+    // }
+
+
+</script>
+
+</body>
+</html>

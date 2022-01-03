@@ -2,18 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Bài 3</title>
+    <title>Bài 4</title>
 </head>
 <body>
-<h1>Tính diện tích hình tròn</h1>
+<h1> Tính chu vi hình tròn</h1>
 <script>
     let inputRadius
     inputRadius = prompt('Nhập bán kính hình tròn')
-    areaCircle = inputRadius * inputRadius * 3.14
+    let radiusCircle = parseFloat(inputRadius)
+    perimeterCircle = radiusCircle * 2 * 3.14
     document.write('Nếu bán kính là:' + inputRadius)
     document.write('<br>')
-    document.write('Thì diện tích của hình tròn là:' + areaCircle)
-
+    document.write('Thì chu vi của hình tròn là:' + perimeterCircle)
 </script>
+
 </body>
 </html>
