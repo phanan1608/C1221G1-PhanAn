@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 1</title>
+</head>
+<body>
+<script>
+    let inputLy
+    let inputHoa
+    let inputSinh
+    inputLy = prompt("Nhập diểm môn Lý")
+    inputHoa = prompt("Nhập điểm môn Hoá")
+    inputSinh = prompt("Nhập điểm môn Sinh")
+    let scoreLy = parseFloat(inputLy)
+    let scoreHoa = parseFloat(inputHoa)
+    let scoreSinh = parseFloat(inputSinh)
+
+    scoreAverage = (scoreLy + scoreHoa + scoreSinh) / 3
+    scoreTotal = (scoreLy + scoreHoa + scoreSinh)
+    document.write('Điểm trung bình:' + scoreAverage)
+    document.write('<br>')
+    document.write('Điểm tổng:' + scoreTotal)
+
+</script>
+
+</body>
+</html>
