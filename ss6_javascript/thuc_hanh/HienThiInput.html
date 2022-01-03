@@ -2,19 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Input</title>
+    <title>Hiển thị Input</title>
 </head>
 <body>
-<div id="messageDiv">
-    <button id="button" type="button" onclick="ShowMessage();">Click me</button>
-</div>
-
+<div id="messagediv"></div>
+<button onclick="showMessage()">Click me!!!</button>
 <script>
-    function ShowMessage() {
-    document.getElementById('messageDiv').innerHTML= 'Hello';
-    //     alert("Hello")
-    // }
+    function showMessage() {
+        // alert('hello')
+        // document.getElementById('messagediv').innerHTML = 'Hello'
+        document.write('hi mọi người')
+        // console.log('hí mọi người')
+    }
 </script>
-
 </body>
 </html>
