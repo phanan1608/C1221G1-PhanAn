@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ứng dụng máy tính</title>
+</head>
+<body>
+<form>
+    <input type="number" name="1" id="number1">
+    <input type="number" name="2" id="number2">
+    <br><br>
+    <button type="button" onclick="dauCong()">Addition(+)</button>
+    <button type="button" onclick="dauTru()">Subtraction(-)</button>
+    <button type="button" onclick="dauNhan()">Multiplication(X)</button>
+    <button type="button" onclick="dauChia()">Division(/)</button>
+    <div id="total"></div>
+</form>
+<script>
+    function dauCong() {
+        let value1 = parseFloat(document.getElementById('number1').value)
+        let value2 = parseFloat(document.getElementById('number2').value)
+        let result
+        result = value1 + value2
+        document.getElementById('total').innerText = result
+    }
+
+    function dauTru() {
+        let value1 = parseFloat(document.getElementById('number1').value)
+        let value2 = parseFloat(document.getElementById('number2').value)
+        let result
+        result = value1 - value2
+        document.getElementById('total').innerText = result
+    }
+
+    function dauNhan() {
+        let value1 = parseFloat(document.getElementById('number1').value)
+        let value2 = parseFloat(document.getElementById('number2').value)
+        let result
+        result = value1 * value2
+        document.getElementById('total').innerText = result
+    }
+
+    function dauChia() {
+        let value1 = parseFloat(document.getElementById('number1').value)
+        let value2 = parseFloat(document.getElementById('number2').value)
+        let result
+        result = value1 / value2
+        document.getElementById('total').innerText = result
+    }
+
+</script>
+
+</body>
+</html>
