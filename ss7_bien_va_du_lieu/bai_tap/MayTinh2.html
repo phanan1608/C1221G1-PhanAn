@@ -9,21 +9,32 @@
     <input type="number" name="1" id="number1">
     <input type="number" name="2" id="number2">
     <br><br>
-    <button type="button" onclick="tinhToan()">Addition(+)</button>
-    <button type="button" onclick="tinhToan()">Subtraction(-)</button>
-    <button type="button" onclick="tinhToan()">Multiplication(X)</button>
-    <button type="button" onclick="tinhToan()">Division(/)</button>
-    <div id="total"></div>
+    <button type="button" onclick="tinhToan('+')">Addition(+)</button>
+    <button type="button" onclick="tinhToan('-')">Subtraction(-)</button>
+    <button type="button" onclick="tinhToan('*')">Multiplication(X)</button>
+    <button type="button" onclick="tinhToan('/')">Division(/)</button>
+    <div id="result"></div>
 </form>
 <script>
-    function tinhToan() {
+    function tinhToan(phepToan) {
         let value1 = parseFloat(document.getElementById('number1').value)
         let value2 = parseFloat(document.getElementById('number2').value)
         let result
-        result = value1 + value2
-        document.getElementById('total').innerText = result
+        if (phepToan == '+') {
+            result = value1 + value2
+        } else {
+            if (phepToan == '-') {
+                result = value1 - value2
+            } else {
+                if (phepToan == '*') {
+                    result = value1 * value2
+                } else {
+                    result = value1 / value2
+                }
+            }
+        }
+        document.getElementById('result').innerText = result
     }
-
 </script>
 
 </body>
