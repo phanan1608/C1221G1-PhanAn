@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Switch Case</title>
+</head>
+<body>
+<script>
+    // let phepTính = "-";
+    // let a = 8;
+    // let b = 9;
+    // switch (phepTính) {
+    //     case "+":
+    //         alert('a+b=' + (a + b));
+    //         break;
+    //     case "-":
+    //         alert('a-b=' + (a - b));
+    //         break
+    //     default:
+    //         alert('không thực hiện phép tính');
+    // }
+
+
+    // let a = 100
+    // let b = 200
+    // switch (a) {
+    //     case 100:
+    //         alert('a=' + a);
+    //         switch (b) {
+    //             case 200:
+    //                 alert('b=' + b)
+    //         }
+    //
+    // }
+    let day = "Mon";
+    let message = "";
+
+    switch (day) {
+        case "Mon":
+            message = "Ngày đầu tuần";
+
+        case "Wed":
+            message = "Ngày giữa tuần";
+
+        case "Sat":
+        case "Sun":
+            message = "Ngày nghỉ";
+    }
+    alert(message)
+</script>
+
+</body>
+</html>

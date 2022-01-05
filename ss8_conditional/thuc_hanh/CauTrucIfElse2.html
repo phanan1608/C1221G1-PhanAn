@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cấu trúc IF ELSE 2</title>
+</head>
+<body>
+<script>
+    let user = prompt('Nhập user')
+
+    if (user == "admin") {
+        let password = prompt('Nhập password')
+        if (password == 'TheMaster') {
+            alert('Welcome')
+        } else if (password == null) {
+            alert('Canceled')
+        } else {
+            'Wrong password'
+        }
+    } else if (user == null) {
+        alert('Canceled')
+    } else {
+        'I dont know you'
+    }
+</script>
+
+</body>
+</html>
