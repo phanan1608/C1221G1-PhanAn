@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Máy tính nâng cao</title>
+    <style>
+                button {
+            width: 100px;
+            height: 50px;
+            margin-bottom: 5px;
+        }
+        input {
+            width: 400px;
+            height: 50px;
+
+        }
+        .chucNang {background: darkgray;
+        border: none
+        }
+        .number { border: none}
+
+        .dauBang {background: darkslateblue;
+            color: white;
+        border: none};
+    </style>
+</head>
+<body>
+<form>
+    <input class="" type="text" id="input">
+
+    <br><br>
+    <button type="button" class="chucNang" onclick="phepTinh('(')">(</button>
+    <button type="button" class="chucNang" onclick="phepTinh(')')">)</button>
+    <button type="button" class="chucNang" onclick="phepTinh('%')">%</button>
+    <button type="button" class="chucNang" onclick="AC()">AC</button>
+    <br>
+    <button type="button" class="number" onclick="phepTinh('7')">7</button>
+    <button type="button" class="number" onclick="phepTinh('8')">8</button>
+    <button type="button" class="number" onclick="phepTinh('9')">9</button>
+    <button type="button" class="chucNang" onclick="phepTinh('/')">/</button>
+    <br>
+    <button type="button" class="number" onclick="phepTinh('4')">4</button>
+    <button type="button" class="number" onclick="phepTinh('5')">5</button>
+    <button type="button" class="number" onclick="phepTinh('6')">6</button>
+    <button type="button" class="chucNang" onclick="phepTinh('*')">x</button>
+    <br>
+    <button type="button" class="number" onclick="phepTinh('1')">1</button>
+    <button type="button" class="number" onclick="phepTinh('2')">2</button>
+    <button type="button" class="number" onclick="phepTinh('3')">3</button>
+    <button type="button" class="chucNang" onclick="phepTinh('-')">-</button>
+    <br>
+
+
+    <button type="button" class="number" onclick="phepTinh('0')">0</button>
+    <button type="button" class="number" onclick="phepTinh('.')">.</button>
+    <button type="button" class="dauBang" onclick="tinhToan()">=</button>
+    <button type="button" class="chucNang" onclick="phepTinh('+')">+</button>
+
+
+    <br>
+</form>
+<script>
+    let str = ''
+
+    function tinhToan() {
+        let result = eval(str)
+        document.getElementById('input').value = result
+        str = result;
+    }
+
+    function phepTinh(input) {
+        str = str + input;
+        console.log(str)
+        document.getElementById('input').value = str;
+    }
+
+    function AC() {
+        document.getElementById('input').value = "";
+        str = ''
+    }
+
+</script>
+
+
+</body>
+</html>
