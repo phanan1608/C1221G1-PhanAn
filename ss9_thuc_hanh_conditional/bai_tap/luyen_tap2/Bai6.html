@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 6</title>
+</head>
+<body>
+<h1>Giải phương trình bậc nhất</h1>
+<h3>Nhập các số để tính toán phương trình ax + b = 0</h3>
+<form>
+    <input type="number" id="inputA" placeholder="Nhập tham số a"> <br>
+    <input type="number" id="inputB" placeholder="Nhập tham số b"> <br>
+    <input type="button" onclick="convert()" value="Kết quả">
+    <p id="output"></p>
+
+</form>
+<script>
+    function convert() {
+        let a = parseFloat(document.getElementById('inputA').value)
+        let b = parseFloat(document.getElementById('inputB').value)
+        let x
+        if (a !== 0) {
+            x = ((-b) / a)
+            document.getElementById('output').innerHTML = 'Phương trình có 1 nghiệm duy nhât x =' + ' ' + x
+        } else if (a === 0 && b === 0) {
+            document.getElementById('output').innerHTML = 'Phương trình có vô số nghiệm'
+        } else {
+            document.getElementById('output').innerHTML = 'Phương trình vô nghiệm'
+        }
+    }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Giải phương trình bậc hai</title>
+</head>
+<body>
+<h1>Giải phương trình bậc hai</h1>
+<h3>Nhập các số để tính toán phương trình ax <sup>2 </sup> + bx + c = 0</h3>
+<form>
+    <input type="number" id="inputA" placeholder="Nhập tham số a"> <br>
+    <input type="number" id="inputB" placeholder="Nhập tham số b"> <br>
+    <input type="number" id="inputC" placeholder="Nhập tham số c"> <br>
+    <input type="button" onclick="ketQua()" value="Kết quả">
+    <p id="output"></p>
+</form>
+<script>
+    function ketQua() {
+        let a = parseFloat(document.getElementById('inputA').value)
+        let b = parseFloat(document.getElementById('inputB').value)
+        let c = parseFloat(document.getElementById('inputC').value)
+        let delta = ((b * b) - 4 * (a * c))
+        let x1
+        let x2
+        if (delta < 0) {
+            document.getElementById('output').innerHTML = 'Phương trình vô nghiệm'
+        } else if (delta === 0) {
+            x1 = ((-b) / (2 * a))
+            document.getElementById('output').innerHTML = 'Phương trình có nghiệm kép x1 = x2 =' + ' ' + x1
+        } else {
+            x1 = (((-b) + Math.sqrt(delta)) / (2 * a))
+            x2 = (((-b) - Math.sqrt(delta)) / (2 * a))
+            document.getElementById('output').innerHTML = 'Phương trình có 2 nghiệm x1 =' + ' ' + x1 + ' ' + 'và' + ' ' + 'x2=' + ' ' + x2
+        }
+    }
+</script>
+
+</body>
+</html>
