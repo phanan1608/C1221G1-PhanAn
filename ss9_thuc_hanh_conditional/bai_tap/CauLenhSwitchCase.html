@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Switch Case</title>
+</head>
+<body>
+<form>
+    <h1>Tính ngày trong 1 tháng</h1>
+    <input type="number" id="inputMonth" placeholder="Nhập tháng">
+    <input type="button" value="Tính số ngày" onclick="tinhToan()">
+</form>
+<script>
+    function tinhToan() {
+        let month = parseInt(document.getElementById('inputMonth').value)
+
+        switch (month) {
+            case 1:
+            case 3:
+            case 5:
+            case 7:
+            case 8:
+            case 10:
+            case 12:
+                alert('tháng' + ' ' + month + ' ' +'có:' + ' ' + '31 ngày')
+                break
+            case 4:
+            case 6:
+            case 9:
+            case 11:
+                alert('tháng' + ' ' + month + ' ' +'có:' + ' ' +'30 ngày')
+                break
+            default:
+                alert('tháng' + ' ' + month + ' ' +'có:' + ' ' + '28/29 ngày')
+
+
+        }
+    }
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 7</title>
+</head>
+<body>
+<!--Tính cước điện thoại cho một hộ gia đình với các thông số đã cho-->
+<!--100 phút đầu tiên: 2000/phút-->
+<!--101-200 phút: 1500/phút-->
+<!--201 phút trở lên: 1000/phút-->
+<script>
+    let minutes = parseFloat(prompt('Nhập số phút đã sử dụng'))
+    let feePhone
+    if (minutes <= 100) {
+        feePhone = minutes * 2000
+    } else if (minutes <= 200) {
+        feePhone = 100 * 2000 + (minutes - 100) * 1500
+    } else {
+        feePhone = 100 * 2000 + 100 * 1500 + (minutes - 200) * 1000
+    }
+    alert('Số tiền điện thoại của bạn là:' + ' ' + feePhone + ' ' + 'VNĐ')
+
+</script>
+</body>
+</html>
