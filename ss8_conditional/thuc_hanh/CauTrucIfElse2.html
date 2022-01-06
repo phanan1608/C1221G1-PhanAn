@@ -6,22 +6,25 @@
 </head>
 <body>
 <script>
-    let user = prompt('Nhập user')
-
+    let user = prompt('Nhập user:')
     if (user == "admin") {
-        let password = prompt('Nhập password')
+        let password = prompt('Nhập password:')
         if (password == 'TheMaster') {
             alert('Welcome')
         } else if (password == null) {
             alert('Canceled')
         } else {
-            'Wrong password'
+            alert('Wrong password')
         }
     } else if (user == null) {
         alert('Canceled')
     } else {
-        'I dont know you'
+        alert('I dont know you')
     }
+
+
+
+
 </script>
 
 </body>
