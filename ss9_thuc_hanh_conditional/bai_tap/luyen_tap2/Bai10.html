@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 10</title>
+</head>
+<body>
+<!--Có 6 bậc giá cụ thể với cách tính lũy tiến với mức giá như sau:-->
+
+<!--Bậc 1: Từ 0-50kWh: 1.678 đồng/kWh.-->
+<!--Bậc 2: Từ 51 – 100 kWh: 1.734 đồng/kWh.-->
+<!--Bậc 3: Từ 101 – 200 kWh: 2.014 đồng/kWh.-->
+<!--Bậc 4: Từ 201 – 300 kWh: 2.536 đồng/kWh.-->
+<!--Bậc 5: Từ 301 – 400 kWh: 2.834 đồng/kWh.-->
+<!--Bậc 6: Từ 401 kWh trở lên: 2.927 đồng/kWh.-->
+
+<script>
+    let soDien = parseFloat(prompt('Nhập vào số điện tiêu thụ trong tháng (kWh)'));
+    let giaTien;
+    if (soDien <= 50) {
+        giaTien = (soDien * 1678);
+    } else if (soDien <= 100) {
+        giaTien = 50 * 1678 + (soDien - 50) * 1734;
+    } else if (soDien <= 200) {
+        giaTien = 50 * 1678 + 50 * 1734 + (soDien - 100) * 2014;
+    } else if (soDien <= 300) {
+        giaTien = 50 * 1678 + 50 * 1734 + 100 * 2014 + (soDien - 200) * 2536;
+    } else if (soDien <= 400) {
+        giaTien = 50 * 1678 + 50 * 1734 + 100 * 2014 + 100 * 2536 + (soDien - 300) * 2834;
+    } else {
+        giaTien = 50 * 1678 + 50 * 1734 + 100 * 2014 + 100 * 2536 + 100 * 2834 + (soDien - 400) * 2927;
+    }
+    alert('Giá tiền điện của bạn là' + ' ' + giaTien + ' ' + 'VNĐ');
+
+</script>
+
+</body>
+</html>

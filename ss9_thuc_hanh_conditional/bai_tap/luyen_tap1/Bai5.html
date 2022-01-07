@@ -7,21 +7,21 @@
 <body>
 <!--Xếp hạng học lực của học sinh dựa trên các điểm bài kiểm tra, điểm thi giữa kỳ, điểm thi cuối kỳ-->
 <script>
-    let score1 = parseFloat(prompt('Nhập điểm kiểm tra 15 phút'))
-    let score2 = parseFloat(prompt('Nhập điểm kiểm tra 1 tiết'))
-    let score3 = parseFloat(prompt('Nhập điểm kiểm tra cuối kỳ'))
-    let total = (score1 + (score2 *2) + (score3*3)) / 6
-    alert('Điểm trung bình:'+total)
+    let score1 = parseFloat(prompt('Nhập điểm kiểm tra 15 phút'));
+    let score2 = parseFloat(prompt('Nhập điểm kiểm tra 1 tiết'));
+    let score3 = parseFloat(prompt('Nhập điểm kiểm tra cuối kỳ'));
+    let total = (score1 + (score2 * 2) + (score3 * 3)) / 6;
+    alert('Điểm trung bình:' + total);
     if (total >= 8) {
-        alert('Xếp loại: Giỏi')
+        alert('Xếp loại: Giỏi');
     } else if (total >= 6.5) {
-        alert('Xếp loại: Khá')
+        alert('Xếp loại: Khá');
     } else if (total >= 5) {
-        alert('Xếp loại: Trung bình')
+        alert('Xếp loại: Trung bình');
     } else if (total >= 4) {
-        alert('Xếp loại: Yếu')
+        alert('Xếp loại: Yếu');
     } else {
-        alert('Thi lại')
+        alert('Thi lại');
     }
 </script>
 </body>

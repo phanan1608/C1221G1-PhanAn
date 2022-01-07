@@ -10,16 +10,16 @@
 <!--101-200 phút: 1500/phút-->
 <!--201 phút trở lên: 1000/phút-->
 <script>
-    let minutes = parseFloat(prompt('Nhập số phút đã sử dụng'))
-    let feePhone
+    let minutes = parseFloat(prompt('Nhập số phút đã sử dụng'));
+    let feePhone;
     if (minutes <= 100) {
-        feePhone = minutes * 2000
+        feePhone = minutes * 2000;
     } else if (minutes <= 200) {
-        feePhone = 100 * 2000 + (minutes - 100) * 1500
+        feePhone = 100 * 2000 + (minutes - 100) * 1500;
     } else {
-        feePhone = 100 * 2000 + 100 * 1500 + (minutes - 200) * 1000
+        feePhone = 100 * 2000 + 100 * 1500 + (minutes - 200) * 1000;
     }
-    alert('Số tiền điện thoại của bạn là:' + ' ' + feePhone + ' ' + 'VNĐ')
+    alert('Số tiền điện thoại của bạn là:' + ' ' + feePhone + ' ' + 'VNĐ');
 
 </script>
 </body>

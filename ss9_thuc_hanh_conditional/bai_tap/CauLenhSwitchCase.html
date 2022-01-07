@@ -12,7 +12,7 @@
 </form>
 <script>
     function tinhToan() {
-        let month = parseInt(document.getElementById('inputMonth').value)
+        let month = parseInt(document.getElementById('inputMonth').value);
 
         switch (month) {
             case 1:
@@ -22,16 +22,16 @@
             case 8:
             case 10:
             case 12:
-                alert('tháng' + ' ' + month + ' ' +'có:' + ' ' + '31 ngày')
-                break
+                alert('tháng' + ' ' + month + ' ' + 'có:' + ' ' + '31 ngày');
+                break;
             case 4:
             case 6:
             case 9:
             case 11:
-                alert('tháng' + ' ' + month + ' ' +'có:' + ' ' +'30 ngày')
-                break
+                alert('tháng' + ' ' + month + ' ' + 'có:' + ' ' + '30 ngày');
+                break;
             default:
-                alert('tháng' + ' ' + month + ' ' +'có:' + ' ' + '28/29 ngày')
+                alert('tháng' + ' ' + month + ' ' + 'có:' + ' ' + '28/29 ngày');
 
 
         }

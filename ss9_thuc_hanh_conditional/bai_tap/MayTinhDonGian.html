@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Máy tính Đơn Giản</title>
+    <style>
+        input {
+            width: 100px;
+            height: 50px
+        }
+
+        #nhap {
+            width: 400px;
+            height: 75px;
+        }
+    </style>
+
+</head>
+<body>
+<table>
+    <tr>
+        <td colspan="4"><input id="nhap" type="text"></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="1" onclick="num(1)"></td>
+        <td><input type="button" value="2" onclick="num(2)"></td>
+        <td><input type="button" value="3" onclick="num(3)"></td>
+        <td><input type="button" value="+" onclick="num('+')"></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="4" onclick="num(4)"></td>
+        <td><input type="button" value="5" onclick="num(5)"></td>
+        <td><input type="button" value="6" onclick="num(6)"></td>
+        <td><input type="button" value="-" onclick="num('-')"></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="7" onclick="num(7)"></td>
+        <td><input type="button" value="8" onclick="num(8)"></td>
+        <td><input type="button" value="9" onclick="num(9)"></td>
+        <td><input type="button" value="*" onclick="num('*')"></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="AC" onclick="AC()"></td>
+        <td><input type="button" value="0" onclick="num(0)"></td>
+        <td><input type="button" value="=" onclick="bang()"></td>
+        <td><input type="button" value="/" onclick="num('/')"></td>
+    </tr>
+</table>
+<script>
+    function num(so) {
+        document.getElementById('nhap').value += so;
+    }
+
+    function bang() {
+        let str = document.getElementById('nhap').value;
+        let ketQua = eval(str);
+        document.getElementById('nhap').value = ketQua;
+    }
+
+    function AC() {
+        document.getElementById('nhap').value = "";
+    }
+
+</script>
+</body>
+</html>

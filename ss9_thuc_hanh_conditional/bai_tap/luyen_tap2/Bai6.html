@@ -16,16 +16,16 @@
 </form>
 <script>
     function convert() {
-        let a = parseFloat(document.getElementById('inputA').value)
-        let b = parseFloat(document.getElementById('inputB').value)
-        let x
+        let a = parseFloat(document.getElementById('inputA').value);
+        let b = parseFloat(document.getElementById('inputB').value);
+        let x;
         if (a !== 0) {
-            x = ((-b) / a)
-            document.getElementById('output').innerHTML = 'Phương trình có 1 nghiệm duy nhât x =' + ' ' + x
+            x = ((-b) / a);
+            document.getElementById('output').innerHTML = 'Phương trình có 1 nghiệm duy nhât x =' + ' ' + x;
         } else if (a === 0 && b === 0) {
-            document.getElementById('output').innerHTML = 'Phương trình có vô số nghiệm'
+            document.getElementById('output').innerHTML = 'Phương trình có vô số nghiệm';
         } else {
-            document.getElementById('output').innerHTML = 'Phương trình vô nghiệm'
+            document.getElementById('output').innerHTML = 'Phương trình vô nghiệm';
         }
     }
 

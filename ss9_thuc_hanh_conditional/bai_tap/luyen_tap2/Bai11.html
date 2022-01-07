@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 11</title>
+</head>
+<body>
+<!--Tính thuế thu nhập cá nhân-->
+<!--0-5tr: 5%-->
+<!--trên 5tr- 10tr: 10%-->
+<!--trên 10tr - 18tr: 15%-->
+<!--trên 18tr: 20%-->
+<script>
+    let thuNhap = parseFloat(prompt('Nhập vào Thu nhập'));
+    let tienThue;
+    if (thuNhap <= 5000000) {
+        tienThue = thuNhap * 0.05;
+    } else if (thuNhap <= 10000000) {
+        tienThue = thuNhap * 0.1 - 250000;
+    } else if (thuNhap <= 18000000) {
+        tienThue = thuNhap * 0.15 - 750000;
+    } else {
+        tienThue = thuNhap * 0.2 - 1650000;
+    }
+    alert(tienThue);
+</script>
+</body>
+</html>

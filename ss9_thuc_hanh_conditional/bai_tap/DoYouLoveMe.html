@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Do You Love Me</title>
+    <style>
+        #pressNo {
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+<h2> Do you love me</h2>
+<input type="button" onclick="sayYes()" value="Yes">
+<input type="button" id="pressNo" onmouseover="sayNo()" value="No">
+
+
+</body>
+<script>
+
+    function sayYes() {
+        alert("Mãi bên nhau bạn nhé <3");
+    }
+
+    function sayNo() {
+        // Math.random() : trả về số từ [0 đến 1)
+        // window.innerWidth: lấy chiều rộng của cưa sổ trình duyệt
+        // window.innerHeight: lấy chiều dài của cưa sổ trình duyệt
+        var x = Math.round(Math.random() * window.innerWidth);
+        var y = Math.round(Math.random() * window.innerHeight);
+        document.getElementById('pressNo').style.left = x + 'px';
+        document.getElementById('pressNo').style.top = y + 'px';
+    }
+
+</script>
+</html>
