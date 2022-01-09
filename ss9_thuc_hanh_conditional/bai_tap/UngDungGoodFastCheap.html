@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ứng dung</title>
+    <style>
+        /* The switch - the box around the slider */
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 60px;
+            height: 34px;
+        }
+
+        /* Hide default HTML checkbox */
+        .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        /* The slider */
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            -webkit-transition: .4s;
+            transition: .4s;
+        }
+
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 26px;
+            width: 26px;
+            left: 4px;
+            bottom: 4px;
+            background-color: white;
+            -webkit-transition: .4s;
+            transition: .4s;
+        }
+
+        input:checked + .good {
+            background-color: #f38321;
+        }
+
+        input:checked + .fast {
+            background-color: #23a0ff;
+        }
+
+        input:checked + .cheap {
+            background-color: #f3216a;
+        }
+
+        input:focus + .slider {
+            box-shadow: 0 0 1px #2196F3;
+        }
+
+        input:checked + .slider:before {
+            -webkit-transform: translateX(26px);
+            -ms-transform: translateX(26px);
+            transform: translateX(26px);
+        }
+
+        /* Rounded sliders */
+        .slider.round {
+            border-radius: 34px;
+        }
+
+        .slider.round:before {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+<label class="switch">
+    <input id="good" type="checkbox" onclick="switchGood () ">
+    <span class="slider round good"></span>
+</label>
+<span>RẺ</span> <br><br>
+<label class="switch">
+    <input id="fast" type="checkbox" onclick="switchFast()">
+    <span class="slider round fast"></span>
+</label>
+<span>ĐẸP</span> <br><br>
+<label class="switch">
+    <input id="cheap" type="checkbox" onclick="switchCheap()">
+    <span class="slider round cheap"></span>
+</label>
+<span>SẠCH</span> <br><br>
+
+<script>
+    function switchGood() {
+        let good = document.getElementById('good').checked;
+        let fast = document.getElementById('fast').checked;
+        let cheap = document.getElementById('cheap').checked;
+        if (fast === true && cheap === true) {
+            if (Math.random() > .5) {
+                document.getElementById('fast').checked = false;
+            } else {
+                document.getElementById('cheap').checked = false;
+            }
+        }
+    }
+
+    function switchFast() {
+        let good = document.getElementById('good').checked;
+        let fast = document.getElementById('fast').checked;
+        let cheap = document.getElementById('cheap').checked;
+        if (good === true && cheap === true) {
+            if (Math.random() > .5) {
+                document.getElementById('good').checked = false;
+            } else {
+                document.getElementById('cheap').checked = false;
+            }
+        }
+    }
+
+    function switchCheap() {
+        let good = document.getElementById('good').checked;
+        let fast = document.getElementById('fast').checked;
+        let cheap = document.getElementById('cheap').checked;
+        if (fast === true && good === true) {
+            if (Math.random() > .5) {
+                document.getElementById('fast').checked = false;
+            } else {
+                document.getElementById('good').checked = false;
+            }
+        }
+    }
+
+</script>
+</body>
+</html>

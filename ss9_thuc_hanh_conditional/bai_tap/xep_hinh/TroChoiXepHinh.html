@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<img id="hinh1" src="h1.png" onclick="pressHinh(1)"> <br>
+<img id="hinh2" src="n2.png" onclick="pressHinh(2)"><br>
+<img id="hinh3" src="t3.png" onclick="pressHinh(3)"> <br>
+<div id="result"></div>
+
+<script>
+    let objHinh1 = document.getElementById('hinh1');
+    let objHinh2 = document.getElementById('hinh2');
+    let objHinh3 = document.getElementById('hinh3');
+    console.log(objHinh1.getAttribute('src'));
+
+    function pressHinh(hinh) {
+        if (hinh === 1) {
+            if (objHinh1.getAttribute('src') === 'h1.png') {
+                objHinh1.src = 'n1.png';
+            } else if (objHinh1.getAttribute('src') === 'n1.png') {
+                objHinh1.src = 't1.png';
+            } else {
+                objHinh1.src = 'h1.png';
+            }
+        } else if (hinh === 2) {
+            if (objHinh2.getAttribute('src') === 'h2.png') {
+                objHinh2.src = 'n2.png';
+            } else if (objHinh2.getAttribute('src') === 'n2.png') {
+                objHinh2.src = 't2.png';
+            } else {
+                objHinh2.src = 'h2.png';
+            }
+        } else {
+            if (objHinh3.getAttribute('src') === 'h3.png') {
+                objHinh3.src = 'n3.png';
+            } else if (objHinh3.getAttribute('src') === 'n3.png') {
+                objHinh3.src = 't3.png';
+            } else {
+                objHinh3.src = 'h3.png';
+            }
+        }
+        ketQua();
+    }
+
+    function ketQua() {
+        if (objHinh1.getAttribute('src') === 'h1.png' && objHinh2.getAttribute('src') === 'h2.png'
+            && objHinh3.getAttribute('src') === 'h3.png') {
+            document.getElementById('result').innerHTML = 'Chúc mừng. Bạn đã ghép thành công gương mặt của Hằng';
+        } else if (objHinh1.getAttribute('src') === 'n1.png' && objHinh2.getAttribute('src') === 'n2.png'
+            && objHinh3.getAttribute('src') === 'n3.png') {
+            document.getElementById('result').innerHTML = 'Chúc mừng. Bạn đã ghép thành công gương mặt của Nghĩa';
+        } else if (objHinh1.getAttribute('src') === 't1.png' && objHinh2.getAttribute('src') === 't2.png'
+            && objHinh3.getAttribute('src') === 't3.png') {
+            document.getElementById('result').innerHTML = 'Chúc mừng. Bạn đã ghép thành công gương mặt của Tuyền';
+        } else {
+            document.getElementById('result').innerHTML = 'Cố lên, sắp thành công rồi';
+        }
+    }
+
+</script>
+</body>
+
+
+</html>
