@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Hiển thị ra 20 số trong dãy fibonacci đầu tiên.-->
+<script>
+    let soTiepTheo;
+    let a = 0;
+    let b = 1;
+    document.write(a + ' ' + b + ' ');
+    for (let count = 2; count < 20; count++) {
+        soTiepTheo = a + b;
+        a = b;
+        b = soTiepTheo;
+        document.write(b + ' ');
+    }
+
+
+</script>
+</body>
+</html>

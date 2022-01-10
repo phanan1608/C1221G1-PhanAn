@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="display"></p>
+<script>
+    let num = parseFloat(prompt('Nhập số'));
+    let count = 0;
+    let n = 2;
+    // let soNguyenTo = ""
+    while (count < num) {
+        let isNguyenTo = true;
+        for (let i = 2; i < n; i++) {
+            if ((n % i) === 0) {
+                isNguyenTo = false;
+                break;
+            }
+        }
+        if (isNguyenTo === true) {
+            document.getElementById('display').innerHTML += n + ';';
+            count++;
+        }
+        n++;
+    }
+
+</script>
+</body>
+</html>

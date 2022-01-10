@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+//Chưa hiểu
+<!-- "<td>" + i * j + "</td>"-->
+
+
+<!--<table border='1' width='300' cellspacing='0' cellpadding='3'>-->
+<!--    <tr>-->
+<!--        <td>+1*1+</td>-->
+<!--        <td>1*2</td>-->
+<!--        <td>1*3</td>-->
+<!--    </tr>-->
+<!--    <tr>-->
+<!--        <td>2*1</td>-->
+<!--        <td>2*2</td>-->
+<!--        <td>2*3</td>-->
+<!--    </tr>-->
+<!--    <tr>-->
+<!--        <td>3*1</td>-->
+<!--        <td>3*2</td>-->
+<!--        <td>3*3</td>-->
+<!--    </tr>-->
+<script>
+    let sout;
+    sout = "<table border='1' width='300' cellspacing='0' cellpadding='3'>";
+    for (i = 1; i <= 10; i++) {
+        sout = sout + "<tr>";
+        for (j = 1; j <= 10; j++) {
+
+            sout = sout + "<td>" + i * j + "</td>";
+
+        }
+        sout = sout + "</tr>";
+    }
+    sout = sout + "</table>";
+    document.write(sout);
+
+</script>
+</body>
+</html>

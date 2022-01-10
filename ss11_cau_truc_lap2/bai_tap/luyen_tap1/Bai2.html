@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 2</title>
+</head>
+<body>
+<!--Sử dụng hàm prompt() để lấy thông tin nhiệt độ hiện tại được nhập bởi người truy cập. Nếu nhiệt độ nhập vào trên 100,-->
+<!--yêu cầu người dùng giảm nhiệt độ. Nếu nhiệt độ dưới 20, yêu cầu người dùng tăng nhiệt độ.-->
+<script>
+    let nhietDo = parseFloat(prompt('Nhập vào nhiệt độ'));
+    while (nhietDo > 100 || nhietDo < 20) {
+        if (nhietDo > 100) {
+            alert('Giảm nhiệt độ');
+            nhietDo = parseFloat(prompt('Giảm nhiệt độ'));
+        } else {
+            alert('Tăng nhiệt độ');
+            nhietDo = parseFloat(prompt('Tăng nhiệt độ'));
+        }
+    }
+    alert('Nhiệt độ là:' + ' ' + nhietDo);
+</script>
+</body>
+</html>

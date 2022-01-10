@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="tong"></p>
+<script>
+    let num = parseInt(prompt('Nhâp vào số bất kỳ'));
+    let total = 0;
+    let i;
+    for (i = 1; i <= num; i++) {
+        total += i;
+    }
+    document.getElementById('tong').innerHTML = 'Tổng giá trị các số từ 1 đến' + ' ' + num + ' ' + 'là' + ' ' + total;
+</script>
+</body>
+</html>

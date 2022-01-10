@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Số Nguyên Tố</title>
+</head>
+<body>
+<script>
+
+    let num = parseFloat(prompt('Nhập số lượng số nguyên tố cần in ra'));
+    let n = 2;
+    let soNguyenTo = "";
+    // vòng lặp dừng khi count = num
+    if (num <= 0) {
+        document.write();
+    } else {
+        soNguyenTo += 2 + ';';
+        let count = 1;
+        while (count < num) {
+            //vòng lặp n kiểm tra n có phải số nguyên tố hay không.
+            // dừng lại khi chia hết cho 1 số nhỏ hơn n -> không phải số nguyên tố
+            // n là số nguyên tố khi n không chia hết cho bất kỳ số nào nhỏ hơn n
+            for (let i = 2; i < n; i++) {
+
+                if ((n % i) === 0) {//n chia hết cho i
+                    break;
+                } else if (i === (n - 1)) {
+                    soNguyenTo += n + ';';
+                    count++;
+                }
+            }
+            n++;
+        }
+    }
+    document.write(soNguyenTo);
+
+</script>
+
+</body>
+</html>

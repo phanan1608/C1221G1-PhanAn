@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="test"></p>
+<script>
+    let num = null;
+    do {
+        num = prompt('Nhập vào số từ 1 đến 10');
+    } while (num > 10 || num < 1);
+    document.getElementById('test').innerHTML = 'Bạn vừa nhập vào số' + ' ' + num;
+</script>
+</body>
+</html>
