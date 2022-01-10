@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let laiSuat = parseFloat((prompt('Nhập vào lãi suất(%)/tháng')) / 100);
+    let tienGui = parseFloat(prompt('Nhập vào số tiền gửi (VNĐ)'));
+    let thangGui = parseFloat(prompt('Nhập vào số tháng gửi'));
+    let tongLaiSuat = 1;
+    for (let i = 1; i <= thangGui; i++) {
+        tongLaiSuat *= (1 + laiSuat);
+    }
+    let tienLai = tienGui * tongLaiSuat;
+    document.write('Số tiền nhận được sau khi gửi' + ' ' + thangGui + ' ' + 'tháng' + ' ' + 'là' + ' ' + tienLai + ' ' + 'VNĐ');
+</script>
+</body>
+</html>

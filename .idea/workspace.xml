@@ -20,23 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ae1fb52-7690-4dd5-9aa0-5c6350ccb0e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss10_cau_truc_lap1/thuc_hanh/SuDungVongLap1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10_cau_truc_lap1/thuc_hanh/SuDungVongLap2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10_cau_truc_lap1/thuc_hanh/SuDungVongLapDoWhile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10_cau_truc_lap1/thuc_hanh/SuDungVongLapFor1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10_cau_truc_lap1/thuc_hanh/SuDungVongLapFor2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10_cau_truc_lap1/thuc_hanh/SuDungVongLapLongNhau.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/BangCuuChuong.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/HienThiSoNguyenToDauTien.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/HienThiSoNguyenToDauTien2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/KiemTraSoNguyenTo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap1/Bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap1/Bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap1/Bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap1/Bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap1/Bai5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap1/Bai6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap1/Bai7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap1/Bai8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap2/Bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap2/Bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap2/Bai3Hinh1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap2/Bai3Hinh2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap2/Bai3Hinh3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap2/Bai3Hinh4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap2/Bai4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap2/Bai5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap2/Bai6.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap1/Bai6.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap1/Bai6.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +62,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap2" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -77,6 +73,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CodeGym\module1\ss11_cau_truc_lap2\bai_tap\luyen_tap2" />
       <recent name="D:\CodeGym\module1\ss11_cau_truc_lap2\bai_tap\luyen_tap1" />
       <recent name="D:\CodeGym\module1\ss11_cau_truc_lap2\bai_tap" />
       <recent name="D:\CodeGym\module1\ss10_cau_truc_lap1\thuc_hanh" />
@@ -94,7 +91,7 @@
       <updated>1641649658286</updated>
       <workItem from="1641649659542" duration="17523000" />
       <workItem from="1641722732742" duration="7226000" />
-      <workItem from="1641778792114" duration="21455000" />
+      <workItem from="1641778792114" duration="32816000" />
     </task>
     <servers />
   </component>
@@ -130,5 +127,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1641810120747" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1641815408923">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1641815408923" />
   </component>
 </project>
