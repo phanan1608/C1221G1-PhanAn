@@ -20,9 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ae1fb52-7690-4dd5-9aa0-5c6350ccb0e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ss12_mang1/thuc_hanh/ThucHanhMang1Chieu.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/HienThiSoNguyenToDauTien2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/HienThiSoNguyenToDauTien2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap1/Bai8.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap1/Bai8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/KiemTraSoNguyenTo.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/KiemTraSoNguyenTo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap2/Bai6.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap2/Bai6.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +83,8 @@
       <workItem from="1641649659542" duration="17523000" />
       <workItem from="1641722732742" duration="7226000" />
       <workItem from="1641778792114" duration="34425000" />
-      <workItem from="1641863290514" duration="5149000" />
+      <workItem from="1641863290514" duration="6975000" />
+      <workItem from="1641882876490" duration="7511000" />
     </task>
     <servers />
   </component>
