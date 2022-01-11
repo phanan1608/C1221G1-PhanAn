@@ -5,8 +5,40 @@
     <title>Title</title>
 </head>
 <body>
+<input type="button" value="Chơi" onclick="playGame()">
 <script>
+    function playGame() {
+        let soTruoc = parseFloat(prompt('Nhập vào số đầu tiên trong khoảng muốn đoán'));
+        let soSau = parseFloat(prompt('Nhập vào số cuối cùng trong khoảng muốn đoán'));
+        let doanSo = parseFloat(prompt('Bạn đoán số bao nhiêu'));
+        let random = soTruoc + Math.round(Math.random() * (soSau - soTruoc));
+        let winGame = false;
+        for (let count = 1; count < 3;) {
+            if (doanSo !== random) {
+                count++;
+                doanSo = parseFloat(prompt('Vui lòng đoán lại'));
 
+            } else {
+                winGame = true;
+                break;
+            }
+        }
+        if (winGame === true) {
+            alert('Bạn đã thắng');
+        } else {
+            alert('Chúc Bạn may mắn lần sau');
+        }
+    }
+
+    //         if (doanSo !== random) {
+    //             count++
+    //             doanSo = parseFloat(prompt('Vui lòng đoán lại'))
+    //         } else {
+    //             alert('Bạn đã đoán đúng')
+    //             break
+    //         }
+    //     } alert('Chúc bạn may mắn lần sau')
+    // }
 
 
 </script>

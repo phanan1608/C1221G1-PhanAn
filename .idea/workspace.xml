@@ -20,19 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ae1fb52-7690-4dd5-9aa0-5c6350ccb0e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap1/Bai7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap1/Bai8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap2/Bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap2/Bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap2/Bai3Hinh1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap2/Bai3Hinh2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap2/Bai3Hinh3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap2/Bai3Hinh4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap2/Bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap2/Bai5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap2/Bai6.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap1/Bai6.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap1/Bai6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/HienThiSoNguyenToDauTien2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/HienThiSoNguyenToDauTien2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap1/Bai8.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap1/Bai8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap2/Bai6.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap2/Bai6.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +82,8 @@
       <updated>1641649658286</updated>
       <workItem from="1641649659542" duration="17523000" />
       <workItem from="1641722732742" duration="7226000" />
-      <workItem from="1641778792114" duration="32816000" />
+      <workItem from="1641778792114" duration="34425000" />
+      <workItem from="1641863290514" duration="5149000" />
     </task>
     <servers />
   </component>
