@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let num = prompt('Nhập vào một dãy số');
+    let str = num.toString();
+
+    console.log(str);
+
+    let result = [str[0]];
+
+    console.log(result);
+
+    for (let i = 0; i < str.length; i++) {
+        if ((str[i] % 2 === 0) && (str[i - 1] % 2 === 0)){
+            result.push('-', str[i]);
+        } else {
+            result.push(str[i]);
+
+        }
+    }
+    console.log(result)
+
+</script>
+</body>
+</html>

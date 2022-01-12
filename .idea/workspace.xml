@@ -20,10 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ae1fb52-7690-4dd5-9aa0-5c6350ccb0e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss12_mang1/thuc_hanh/ThucHanhMang1Chieu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang1/thuc_hanh/DaoNguocPhanTuMang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang1/thuc_hanh/TaoBanCoCaroDonGian.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang1/thuc_hanh/TaoVaThaoTacVoiMang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang1/thuc_hanh/TimGiaTriLonNhatTrongMang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang1/thuc_hanh/TimGiaTriTrongMang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss13_mang2/bai_tap/SuDungCacHamCoSan1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss13_mang2/bai_tap/SuDungCacHamCoSan2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/KiemTraSoNguyenTo.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/KiemTraSoNguyenTo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap2/Bai6.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap2/Bai6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss10_cau_truc_lap1/thuc_hanh/SuDungVongLapLongNhau.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss10_cau_truc_lap1/thuc_hanh/SuDungVongLapLongNhau.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap2/Bai4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap2/Bai4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss12_mang1/thuc_hanh/ThucHanhMang1Chieu.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss12_mang1/thuc_hanh/ThucHanhMang1Chieu.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +60,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ss13_mang2/bai_tap" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -64,6 +71,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CodeGym\module1\ss13_mang2\bai_tap" />
       <recent name="D:\CodeGym\module1\ss11_cau_truc_lap2\bai_tap\luyen_tap2" />
       <recent name="D:\CodeGym\module1\ss11_cau_truc_lap2\bai_tap\luyen_tap1" />
       <recent name="D:\CodeGym\module1\ss11_cau_truc_lap2\bai_tap" />
@@ -85,6 +93,9 @@
       <workItem from="1641778792114" duration="34425000" />
       <workItem from="1641863290514" duration="6975000" />
       <workItem from="1641882876490" duration="7511000" />
+      <workItem from="1641908294591" duration="4140000" />
+      <workItem from="1641950179415" duration="1362000" />
+      <workItem from="1641969290838" duration="6350000" />
     </task>
     <servers />
   </component>
