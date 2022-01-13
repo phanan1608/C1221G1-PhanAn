@@ -14,8 +14,8 @@
         arr[i] = parseInt(prompt('Nhập vào số nguyên ở vị trí ' + i));
     }
 
-    for (let i = 0; i < arr.length; i++) {
-        for (let j = i; j < arr.length; j++) {
+    for (let i = 0; i < arr.length - 1; i++) {
+        for (let j = i + 1; j < arr.length; j++) {
             if (arr[i] < arr[j]) {
                 let b = arr[i];
                 arr[i] = arr[j];

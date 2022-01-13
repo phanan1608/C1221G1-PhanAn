@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Viết một chương trình để đếm số từ trong một chuỗi-->
+<script>
+    let str = prompt('Nhập chuỗi');
+    let count = 1;
+    for (let i = 0; i < str.length; i++) {
+        if (str[i] === ' ') {
+            count++;
+        }
+    }
+    document.write(count);
+</script>
+</body>
+</html>
