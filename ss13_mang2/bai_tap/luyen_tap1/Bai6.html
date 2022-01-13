@@ -14,15 +14,15 @@
     for (let i = 0; i < arr.length; i++) {
         arr[i] = prompt('Nhập vào số nguyên ở vị trí ' + i);
     }
-    for (let arrElement of arr) {
-        if (arrElement === 'V') {
-            document.write('V is in the array');
-            document.write('<br>');
-        } else {
-            document.write('V is not in the array');
-            document.write('<br>');
+
+    let V = parseInt(prompt("Nhập vào số muốn kiểm tra:"));
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] == V) {
+            document.write(V + " is in the array");
+            break;
+        } else if (i == arr.length - 1) {
+            document.write(V + " is not in the array");
         }
-        console.log(arrElement);
     }
 </script>
 </body>
