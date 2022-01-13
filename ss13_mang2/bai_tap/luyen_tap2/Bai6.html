@@ -8,15 +8,16 @@
 <!--Viết chương trình nhập vào một mảng ký tự, -->
 <!--tìm tất cả các ký tự trong mảng là (-) và thay thế các ký tự này bởi ký tự ( _ )-->
 <script>
-    // let str = prompt('Nhập vào một chuỗi')
-    let arr =
+    let str = prompt('Nhập vào một chuỗi');
+    let strNew = '';
     for (let i = 0; i < str.length; i++) {
-        if (str[i]== '-'){
-            
-
-
+        if (str[i] !== '-') {
+            strNew += str[i];
+        } else {
+            strNew += '_';
         }
-    } alert(str)
+    }
+    alert(strNew);
 </script>
 </body>
 </html>

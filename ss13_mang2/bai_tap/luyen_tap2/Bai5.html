@@ -8,15 +8,21 @@
 <script>
     let a = prompt('Nhập vào chuỗi a');
     let b = prompt('Nhập vào chuỗi b');
+    let flag = true;
     if (a.length === b.length) {
         for (let i = 0; i < a.length; i++) {
-            if (a[i] != b[i]) {
-                alert('2 chuỗi không giống nhau');
-            } else {
-                alert('2 chuỗi giống nhau');
-
+            if (a[i] !== b[i]) {
+                flag = false;
+                break;
             }
         }
+    } else {
+        flag = false;
+    }
+    if (flag) {
+        document.write('Đây là 2 chuỗi giống nhau');
+    } else {
+        document.write('Đây là 2 chuỗi không giống nhau');
     }
 
 
