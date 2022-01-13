@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Viết chương trình khởi tạo/nhập vào một mảng số nguyên gồm 10 phần tử. Chương trình sắp xếp mảng theo thứ tự giảm dần và-->
+<!--hiển thị ra mảng đã được sắp xếp.-->
+<script>
+    let doDaiMang = parseInt(prompt('Nhập vào số phần tử trong mảng: '));
+    let arr = new Array(doDaiMang);
+    for (let i = 0; i < arr.length; i++) {
+        arr[i] = parseInt(prompt('Nhập vào số nguyên ở vị trí ' + i));
+    }
+
+    for (let i = 0; i < arr.length; i++) {
+        for (let j = i; j < arr.length; j++) {
+            if (arr[i] < arr[j]) {
+                let b = arr[i];
+                arr[i] = arr[j];
+                arr[j] = b;
+            }
+        }
+    }
+    document.write(arr);
+</script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Viết chương trình khởi tạo/nhập vào một mảng số nguyên và đảo ngược các phần tử trong mảng đó.-->
+<script>
+    let doDaiMang = parseInt(prompt('Nhập vào số phần tử trong mảng: '));
+    let arr = new Array(doDaiMang);
+    for (let i = 0; i < arr.length; i++) {
+        arr[i] = parseInt(prompt('Nhập vào số nguyên ở vị trí ' + i));
+    }
+
+    let indexSoCuoi = arr.length - 1;
+    let indexSoDau = 0;
+    while (indexSoDau < indexSoCuoi) {
+        let a = arr[indexSoDau];
+        arr[indexSoDau] = arr[indexSoCuoi];
+        arr[indexSoCuoi] = a;
+        indexSoDau++;
+        indexSoCuoi--;
+    }
+    document.write(arr);
+</script>
+</body>
+</html>

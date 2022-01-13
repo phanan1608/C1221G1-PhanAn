@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Viết chương trình khởi tạo mảng số nguyên. Hiển hiện giá trị lớn nhất trong mảng đó. In ra giá trị trung bình của các-->
+<!--phần tử trong mảng.-->
+<script>
+    let doDaiMang = parseInt(prompt('Nhập vào số phần tử trong mảng: '));
+    let arr = new Array(doDaiMang);
+    for (let i = 0; i < arr.length; i++) {
+        arr[i] = parseInt(prompt('Nhập vào số nguyên ở vị trí ' + i));
+    }
+
+    let max = arr[0];
+    let maxIndex;
+    let trungBinh;
+    let total = 0;
+    for (let i = 0; i < arr.length; i++) {
+        total += arr[i];
+        if (arr[i] > max) {
+            max = arr[i];
+            maxIndex = i;
+        }
+    }
+    trungBinh = total / doDaiMang;
+    document.write('Phần tử có giả trị lớn nhất là: ' + max + ' ở vị trí Index: ' + maxIndex);
+    document.write('<br>');
+    document.write('Giá trị trung bình các phần tử trong mảng là: ' + trungBinh);
+</script>
+</body>
+</html>

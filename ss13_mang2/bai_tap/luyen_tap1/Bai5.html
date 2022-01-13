@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Viết chương trình đếm số nguyên âm trong một chuỗi-->
+<script>
+    let doDaiMang = parseInt(prompt('Nhập vào số phần tử trong mảng: '));
+    let arr = new Array(doDaiMang);
+    for (let i = 0; i < arr.length; i++) {
+        arr[i] = parseInt(prompt('Nhập vào số nguyên ở vị trí ' + i));
+    }
+
+    let count = 0;
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] < 0) {
+            count++;
+        }
+    }
+    document.write('Tổng số nguyên âm trong chuỗi là: ' + count);
+</script>
+</body>
+</html>

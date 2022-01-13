@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Viết chương trình khởi tạo/nhập vào 2 mảng số nguyên gồm 10 phần tử, gọi là mảng a và b. Mảng c là một mảng được khai-->
+<!--báo gồm 20 phần tử số nguyên. Chương trình sẽ lưu các phần tử được nối từ hai mảng b và a vào mảng c. Hiển thị mảng c.-->
+
+<script>
+    let arr1 = [1,2,3,4,5,6,7,8,9,10]
+
+    let arr2 = [9,8,7,6,5,4,3,2,1,0]
+
+    let arr3 = new Array(20);
+
+    for (let i = 0; i < arr3.length; i++) {
+        if (i<10){
+            arr3[i] = arr1[i]
+        } else {
+            arr3[i] = arr2[i-10]
+        }
+    }
+    document.write(arr3);
+
+    // let arr3 = arr1.concat(arr2);
+    // document.write(arr3);
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Viết chương trình khởi tạo mảng số nguyên gồm 10 phần tử. Chương trình thực hiện tính và hiển thị xem có bao nhiêu số-->
+<!--nguyên lớn hơn hoặc bằng 10.-->
+<script>
+    let doDaiMang = parseInt(prompt('Nhập vào số phần tử trong mảng: '));
+    let arr = new Array(doDaiMang);
+    let count = 0;
+    let total = 0;
+    for (let i = 0; i < arr.length; i++) {
+        arr[i] = parseInt(prompt('Nhập vào số nguyên ở vị trí ' + i));
+        if (arr[i] >= 10) {
+            total += arr[i];
+            count++;
+        }
+    }
+
+
+    // for (let i = 0; i < arr.length; i++) {
+    //     if (arr[i] >= 10) {
+    //         total += arr[i];
+    //         count++;
+    //     }
+    // }
+    document.write('Tổng các số nguyên lớn hơn bằng 10 là: ' + total);
+    document.write('<br>');
+    document.write('Trong mảng có ' + count + ' số nguyên lớn hơn bằng 10');
+</script>
+</body>
+</html>

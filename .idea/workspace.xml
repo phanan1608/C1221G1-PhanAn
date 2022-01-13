@@ -20,17 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ae1fb52-7690-4dd5-9aa0-5c6350ccb0e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss12_mang1/thuc_hanh/DaoNguocPhanTuMang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss12_mang1/thuc_hanh/TaoBanCoCaroDonGian.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss12_mang1/thuc_hanh/TaoVaThaoTacVoiMang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss12_mang1/thuc_hanh/TimGiaTriLonNhatTrongMang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss12_mang1/thuc_hanh/TimGiaTriTrongMang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss13_mang2/bai_tap/SuDungCacHamCoSan1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss13_mang2/bai_tap/SuDungCacHamCoSan2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss13_mang2/bai_tap/luyen_tap2/Bai1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss10_cau_truc_lap1/thuc_hanh/SuDungVongLapLongNhau.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss10_cau_truc_lap1/thuc_hanh/SuDungVongLapLongNhau.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap2/Bai4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap2/Bai4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss12_mang1/thuc_hanh/ThucHanhMang1Chieu.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss12_mang1/thuc_hanh/ThucHanhMang1Chieu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss13_mang2/bai_tap/SuDungCacHamCoSan1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang2/bai_tap/SuDungCacHamCoSan1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss13_mang2/bai_tap/SuDungCacHamCoSan2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang2/bai_tap/SuDungCacHamCoSan2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss13_mang2/bai_tap/SuDungCacHamCoSan3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang2/bai_tap/SuDungCacHamCoSan3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +89,9 @@
       <workItem from="1641882876490" duration="7511000" />
       <workItem from="1641908294591" duration="4140000" />
       <workItem from="1641950179415" duration="1362000" />
-      <workItem from="1641969290838" duration="6350000" />
+      <workItem from="1641969290838" duration="7489000" />
+      <workItem from="1642036493727" duration="11307000" />
+      <workItem from="1642054439821" duration="5616000" />
     </task>
     <servers />
   </component>
@@ -131,9 +127,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1641810120747" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1641815408923">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1642037621425">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1641815408923" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1642037621425" />
   </component>
 </project>

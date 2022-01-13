@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Viết chương trình khởi tạo/nhập vào một mảng số nguyên gồm 10 phần tử, nhập/tạo phần tử số nguyên V. Chương trình tìm-->
+<!--xem V có nằm trong mảng số nguyên không? Nếu V thuộc mảng số nguyên thì in ra "V is in the array" còn lại in ra "V is-->
+<!--not in the array".-->
+<script>
+    let doDaiMang = parseInt(prompt('Nhập vào số phần tử trong mảng: '));
+    let arr = new Array(doDaiMang);
+    for (let i = 0; i < arr.length; i++) {
+        arr[i] = prompt('Nhập vào số nguyên ở vị trí ' + i);
+    }
+    for (let arrElement of arr) {
+        if (arrElement === 'V') {
+            document.write('V is in the array');
+            document.write('<br>');
+        } else {
+            document.write('V is not in the array');
+            document.write('<br>');
+        }
+        console.log(arrElement);
+    }
+</script>
+</body>
+</html>

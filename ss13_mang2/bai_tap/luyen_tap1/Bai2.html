@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Viết chương trình khởi tạo mảng số nguyên gồm 10 phần tử khác nhau. Chương trình hiển thị ra được phần tử có giá trị lớn-->
+<!--nhất trong mảng và vị trí của phần tử đó.-->
+<script>
+    let doDaiMang = parseInt(prompt('Nhập vào số phần tử trong mảng: '));
+    let arr = new Array(doDaiMang);
+    for (let i = 0; i < arr.length; i++) {
+        arr[i] = parseInt(prompt('Nhập vào số nguyên ở vị trí ' + i));
+    }
+
+    let max = arr[0];
+    let maxIndex;
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] > max) {
+            max = arr[i];
+            maxIndex = i;
+        }
+    }
+    document.write('Phần tử có giả trị lớn nhất là: ' + max + ' ở vị trí Index: ' + maxIndex);
+</script>
+</body>
+</html>
