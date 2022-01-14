@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function isPrime(number) {
+        let flag = true;
+        number = parseFloat(number);
+        if (number < 2) {
+            flag = false;
+        } else {
+            for (let i = 2; i < number - 1; i++) {
+                if (number % i === 0) {
+                    flag = false;
+                    break;
+                }
+            }
+        }
+        return flag;
+
+    }
+
+    let a = isPrime(1);
+    if (a) {
+        document.write('Đây là số nguyên tố');
+    } else {
+        document.write('Đây không phải số nguyên tố');
+
+    }
+</script>
+</body>
+</html>

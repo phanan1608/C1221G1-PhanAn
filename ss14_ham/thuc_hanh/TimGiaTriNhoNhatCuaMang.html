@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr1 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+    let arr2 = [-1, 3, 12, 3, 2, 5, 7, 5, 2, -10];
+    let arr3 = [];
+    let arr4 = [0, 0, 0, 0, 0, 0];
+    let min = getMinArr(arr4);
+
+    alert(min);
+
+    function getMinArr(arr) {
+        if (arr.length == 0)
+            return -1;
+        let min = arr[0];
+        let indexMin = 0;
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] < min) {
+                min = arr[i];
+                indexMin = i;
+            }
+        }
+        return indexMin;
+    }
+</script>
+
+</body>
+</html>

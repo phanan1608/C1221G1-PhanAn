@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Viết hàm tính diện tích, hàm tính chu vi hình tròn. Gọi hàm vừa xây dựng được-->
+<script>
+    const PI = 3.14;
+
+    function tinhDienTich(number) {
+        number = parseFloat(number);
+        dienTich = number * number * PI;
+        return dienTich;
+    }
+
+    function tinhChuVi(number) {
+        number = parseFloat(number);
+        chuVi = number * 2 * PI;
+        return chuVi;
+    }
+
+
+    let banKinh;
+    let chuVi;
+    let dienTich;
+    let flag = true;
+    do {
+        banKinh = parseFloat(prompt('Nhập vào bán kính hình tròn'));
+        flag = (banKinh > 0 && banKinh !== isNaN());
+    } while (!flag);
+
+    let dienTichHinhTron = tinhDienTich(banKinh);
+    let chuViHinhTron = tinhChuVi(banKinh);
+
+    document.write('Bán kính hình tròn: ' + banKinh);
+    document.write('<br>');
+    document.write('Chu vi hình tròn là: ' + chuViHinhTron);
+    document.write('<br>');
+    document.write('Diện hình tròn là: ' + dienTichHinhTron);
+</script>
+</body>
+</html>

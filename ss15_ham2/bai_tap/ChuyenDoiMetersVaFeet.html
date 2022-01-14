@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let inputSoFeet = prompt('Nhập vào số feet muốn đổi');
+    let chuyenSangMet = footToMeter(inputSoFeet);
+    alert(chuyenSangMet);
+
+    function footToMeter(foot) {
+        foot = parseFloat(foot);
+        let meter = foot * .305;
+        return meter;
+    }
+
+
+    let inputSoMet = prompt('Nhập vào số mét muốn đổi');
+    let chuyenSangFeet = meterToFoot(inputSoMet);
+    alert(chuyenSangFeet);
+
+    function meterToFoot(meter) {
+        meter = parseFloat(meter);
+        let foot = meter / .305;
+        return foot;
+    }
+
+
+</script>
+</body>
+</html>

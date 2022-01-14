@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let soThuNhat = prompt('Nhập vào số thứ nhất: ');
+    let soThuHai = prompt('Nhập vào số thứ hai: ');
+    let tinhTong = tinhTongHaiThamSo(soThuNhat, soThuHai);
+    let tong
+    alert('Tổng của 2 số là: ' + tinhTong);
+
+    function tinhTongHaiThamSo(number1, number2) {
+        number1 = parseFloat(number1);
+        number2 = parseFloat(number2);
+        if (number1 > number2) {
+            alert('Bạn đã nhập sai');
+        } else {
+            tong = number1 + number2;
+            return tong;
+        }
+    }
+</script>
+
+</body>
+</html>

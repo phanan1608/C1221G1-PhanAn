@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Nhập tên ngôi sao<input id="input" type="text"> <br>-->
+<!--<input onclick="timChomSao()" type="button" value="Search">-->
+<!--<p id="display"></p>-->
+
+
+<script>
+    let tenSieuSao = ['Polaris', 'Aldebaran', 'Deneb', 'Vega', 'Altair', 'Dubhe', 'Regulu'];
+    let tenChomSao = ['Ursa Minor', 'Tarurus', 'Cygnus', 'Lyra', 'Aquila', 'Ursa Major', 'Leo'];
+    let search = prompt('Nhập tên siêu sao cần tìm: ');
+    timChomSao();
+
+    function timChomSao() {
+        for (let i = 0; i < tenSieuSao.length; i++) {
+            if (tenSieuSao[i] === search) {
+                document.write ('Tên chòm sao của '+tenSieuSao[i] + ' là ' + tenChomSao[i]);
+                break
+            } else if(i==tenSieuSao.length -1) {
+                document.write ('Tên bạn nhập không đúng');
+            }
+        }
+    }
+</script>
+
+</body>
+</html>
