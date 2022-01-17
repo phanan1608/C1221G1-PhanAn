@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function kiemTraDoiXung(string) {
+        let before = 0;
+        let after = string.length - 1;
+        let isPalindrome = true;
+        while (before < after) {
+            if (string[before] !== string[after]) {
+                isPalindrome = false;
+                break;
+            }
+            before++;
+            after--;
+        }
+        return isPalindrome;
+    }
+
+    let result = kiemTraDoiXung('rotor');
+    alert(result);
+</script>
+</body>
+</html>
