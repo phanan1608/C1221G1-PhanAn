@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let num1 = {value: 9};
+    let num2 = {value: 4};
+
+
+    function doiViTri2So(number1, number2) {
+        let temp = number1.value;
+        number1.value = number2.value;
+        number2.value = temp;
+    }
+
+    doiViTri2So(num1, num2);
+    document.write(num1.value, num2.value);
+
+</script>
+</body>
+</html>

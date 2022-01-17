@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function kiemTraSoNguyenDuong(number) {
+        let isSoNguyen = false;
+        if (parseInt(number) === number && number >= 0) {
+            isSoNguyen = true;
+        }
+        return isSoNguyen;
+    }
+
+    let result = kiemTraSoNguyenDuong(-20);
+    alert(result);
+</script>
+</body>
+</html>

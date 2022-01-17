@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Viết hàm kiểm tra xem ký tự nhập vào có phải là ký tự số không.
+Nếu là ký tự số hàm trả về true, ngược lại trả về false.-->
+<script>
+    let kyTu = prompt('Nhập vào ký tự');
+    let result = kiemTraKyTuSo(kyTu);
+    alert(result);
+
+    function kiemTraKyTuSo(string) {
+        let isNumber = true;
+        if (isNaN(string)) {
+            isNumber = false;
+        }
+        return isNumber;
+    }
+
+</script>
+</body>
+</html>

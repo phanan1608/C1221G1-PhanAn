@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Viết hàm truyền vào một mảng ký tự, và một ký tự bất kỳ, kiểm tra xem ký tự bất kỳ đó có nằm trong mảng không.-->
+<!--Nếu có trả về số lần xuất hiện của ký tự đó, nếu không trả về -1.-->
+<script>
+
+
+    let result = kiemTraMang('a', [1, 2, 1, 1, 5]);
+    alert(result);
+
+    function kiemTraMang(character, array) {
+        let count = 0;
+        for (let i = 0; i < array.length; i++) {
+            if (character === array[i]) {
+                count++;
+            }
+        }
+        if (count === 0) {
+            count = -1;
+        }
+        return count;
+    }
+
+
+</script>
+</body>
+</html>
