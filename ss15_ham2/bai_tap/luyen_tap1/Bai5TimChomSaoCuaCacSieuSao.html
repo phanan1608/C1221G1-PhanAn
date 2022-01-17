@@ -11,7 +11,7 @@
 
 
 <script>
-    let tenNgoiSao= ['Polaris', 'Aldebaran', 'Deneb', 'Vega', 'Altair', 'Dubhe', 'Regulu'];
+    let tenNgoiSao = ['Polaris', 'Aldebaran', 'Deneb', 'Vega', 'Altair', 'Dubhe', 'Regulu'];
     let tenChomSao = ['Ursa Minor', 'Tarurus', 'Cygnus', 'Lyra', 'Aquila', 'Ursa Major', 'Leo'];
     let search = prompt('Nhập tên siêu sao cần tìm: ');
     timChomSao();
@@ -19,10 +19,10 @@
     function timChomSao() {
         for (let i = 0; i < tenNgoiSao.length; i++) {
             if (tenNgoiSao[i] === search) {
-                document.write ('Tên chòm sao của '+tenNgoiSao[i] + ' là ' + tenChomSao[i]);
-                break
-            } else if(i==tenNgoiSao.length -1) {
-                document.write ('Tên bạn nhập không đúng');
+                document.write('Tên chòm sao của ' + tenNgoiSao[i] + ' là ' + tenChomSao[i]);
+                break;
+            } else if (i == tenNgoiSao.length - 1) {
+                document.write('Tên bạn nhập không đúng');
             }
         }
     }

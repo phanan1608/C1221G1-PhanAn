@@ -28,16 +28,17 @@
 
     function addNewProduct() {
         let newName = document.getElementById("nhap").value;
-        if (newName!=""){
+        if (newName != "") {
             listProduct.push(newName);
-        }else {
-            alert("Cần nhập tên sản phẩm")
+        } else {
+            alert("Cần nhập tên sản phẩm");
         }
 
-        document.getElementById("nhap").value="";
+        document.getElementById("nhap").value = "";
         display(listProduct);
 
     }
+
     function display(list) {
         let tableString = '<table border="1" style="border-collapse: collapse">\n' +
             '<tr>\n' +
@@ -50,28 +51,30 @@
             tableString += '<tr>\n' +
                 '<td>' + (i + 1) + '</td>\n' +
                 '<td>' + list[i] + '</td>\n' +
-                '<td><input type="button" value="edit" onclick="editProduct('+i+')"></td>\n' +
-                '<td><input type="button" value="delete" onclick="deleteProduct('+i+')"></td>\n' +
+                '<td><input type="button" value="edit" onclick="editProduct(' + i + ')"></td>\n' +
+                '<td><input type="button" value="delete" onclick="deleteProduct(' + i + ')"></td>\n' +
                 '</tr>';
         }
         tableString += '</table>';
         document.getElementById("display").innerHTML = tableString;
         document.getElementById("soLuong").innerText = list.length;
     }
+
     function deleteProduct(index) {
-        let conf= confirm("Bạn có muốn xóa sản phẩm "+listProduct[index]);
-        if (conf){
-            listProduct.splice(index,1); // xóa 1 sp tại vì trí index
-        }else {
+        let conf = confirm("Bạn có muốn xóa sản phẩm " + listProduct[index]);
+        if (conf) {
+            listProduct.splice(index, 1); // xóa 1 sp tại vì trí index
+        } else {
             alert("Bạn đã không xóa ");
         }
 
         display(listProduct);
     }
+
     function editProduct(index) {
         let editName = prompt("Nhập tên bạn muốn sửa: ");
-        if (editName!=null && editName!=""){ //null =>ok
-            listProduct[index] =editName;
+        if (editName != null && editName != "") { //null =>ok
+            listProduct[index] = editName;
         }
         display(listProduct);
 

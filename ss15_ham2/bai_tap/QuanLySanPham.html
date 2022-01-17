@@ -25,7 +25,7 @@
             str += '<tr>\n' +
                 '        <td>' + list[i] + '</td>\n' +
                 '        <td><input type="button" value="Edit" onclick="editSanPham(' + i + ')" ></td>\n' +
-                '        <td><input type="button" value="Delete" onclick="deleteSanPham('+ i+')"></td>\n' +
+                '        <td><input type="button" value="Delete" onclick="deleteSanPham(' + i + ')"></td>\n' +
                 '    </tr>';
         }
         str += '</table>\n';
@@ -52,12 +52,12 @@
     }
 
     function deleteSanPham(i) {
-        let xacNhan = confirm('Bạn muốn xoá sản phẩm này')
+        let xacNhan = confirm('Bạn muốn xoá sản phẩm này');
         if (xacNhan) {
-            listSanPham.splice(i,1)
-            hienThi(listSanPham)
+            listSanPham.splice(i, 1);
+            hienThi(listSanPham);
         } else {
-            alert('Bạn chưa xoá sản phẩm này')
+            alert('Bạn chưa xoá sản phẩm này');
         }
     }
 
