@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Temperature {
+        constructor(temperatureC) {
+            this.temperatureC = temperatureC;
+        }
+
+        fromtempCtoF() {
+            return this.temperatureC * 9 / 5 + 32;
+        }
+
+        fromtempCtoK() {
+            return this.temperatureC + 273.15;
+        }
+    }
+
+    let nhietDoC = new Temperature(25);
+    let nhietDoF = nhietDoC.fromtempCtoF();
+    let nhietDoK = nhietDoC.fromtempCtoK();
+    document.write(nhietDoF);
+    document.write('<br>');
+    document.write(nhietDoK);
+
+
+</script>
+</body>
+</html>
