@@ -43,8 +43,11 @@
     let chuVi = hinhChuNhat1.getPerimeter();
     let dienTich = hinhChuNhat1.getArea();
     document.getElementById('display').innerHTML = 'Chu vi hình chữ nhật là: ' + chuVi + '<br>' + 'Diện tích hình chữ nhật là: ' + dienTich;
-    // hinhChuNhat1.setWidth(1000);
-    // hinhChuNhat1.setHeight(300);
+    hinhChuNhat1.setWidth(1000);
+    hinhChuNhat1.setHeight(300);
+    chuVi = hinhChuNhat1.getPerimeter();
+    dienTich = hinhChuNhat1.getArea();
+    document.getElementById('display').innerHTML = 'Chu vi hình chữ nhật là: ' + chuVi + '<br>' + 'Diện tích hình chữ nhật là: ' + dienTich;
 
     hinhChuNhat1.drawRectangle();
 
