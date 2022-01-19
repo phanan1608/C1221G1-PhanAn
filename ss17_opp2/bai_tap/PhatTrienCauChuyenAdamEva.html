@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Apple {
+        constructor() {
+            this.weight = 10;
+        }
+
+        decrease() {
+            this.weight--;
+        }
+
+        getWeight() {
+            return this.weight;
+        }
+
+
+        isEmpty() {
+            if (this.weight === 0) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+    }
+
+    class Human {
+        constructor(name, gender, weight) {
+            this.gender = gender;
+            this.name = name;
+            this.weight = weight;
+        }
+
+        isMale() {
+            if (this.gender === 'male') {
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+        setGender(value) {
+            this.gender = value;
+        }
+
+        getName() {
+            return this.name;
+        }
+
+        setName(value) {
+            this.name = value;
+        }
+
+        getWeight() {
+            return this.weight;
+        }
+
+        setWeight(value) {
+            this.weight = value;
+        }
+
+        say(something) {
+            console.log('human said: ' + something);
+        }
+
+        checkApple(Apple) {
+            console.log(Apple.getWeight());
+        }
+
+        eat(Apple) {
+            if (Apple.getWeight() !== 0) {
+                this.weight++;
+                Apple.decrease();
+            }
+        }
+    }
+
+    let apple = new Apple();
+    let adam = new Human('Adam', 'male', 50);
+    let eva = new Human('Eva', 'female', 45);
+    console.log(apple.getWeight());
+
+    console.log(adam.getName());
+    console.log(adam.getWeight());
+    console.log(adam.isMale());
+    adam.say('cho xin trái táo');
+    adam.checkApple(apple);
+    adam.eat(apple)
+    adam.checkApple(apple);
+    console.log(adam.getWeight())
+
+
+    console.log(eva.getName());
+    console.log(eva.getWeight());
+    console.log(eva.isMale());
+    eva.say('cứ lấy đi');
+
+
+</script>
+</body>
+</html>
