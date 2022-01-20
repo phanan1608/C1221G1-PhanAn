@@ -20,8 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ae1fb52-7690-4dd5-9aa0-5c6350ccb0e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss17_opp2/bai_tap/PhatTrienChuongTrinhCongTacBongDen.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss12_mang1/thuc_hanh/DaoNguocPhanTuMang.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss12_mang1/thuc_hanh/DaoNguocPhanTuMang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17_opp2/bai_tap/PhatTrienCauChuyenAdamEva.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss17_opp2/bai_tap/PhatTrienCauChuyenAdamEva.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss17_opp2/bai_tap/PhatTrienChuongTrinhCongTacBongDen.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss17_opp2/bai_tap/PhatTrienChuongTrinhCongTacBongDen.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +64,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CodeGym\module1" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\CodeGym\module1\ss13_mang2\bai_tap" />
       <recent name="D:\CodeGym\module1\ss11_cau_truc_lap2\bai_tap\luyen_tap2" />
@@ -95,7 +101,8 @@
       <workItem from="1642169303584" duration="4043000" />
       <workItem from="1642381711295" duration="24203000" />
       <workItem from="1642472667717" duration="13948000" />
-      <workItem from="1642557095006" duration="12383000" />
+      <workItem from="1642557095006" duration="18269000" />
+      <workItem from="1642641463506" duration="21799000" />
     </task>
     <servers />
   </component>
@@ -123,6 +130,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1642601602136" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1642609473345">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1642609473345" />
     <state x="277" y="57" width="1070" height="709" key="SettingsEditor" timestamp="1641709336205">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

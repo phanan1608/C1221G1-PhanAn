@@ -7,8 +7,8 @@
 <body>
 <script>
     class ElectricLamp {
-        constructor(status) {
-            this.status = status;
+        constructor() {
+            this.status = false;
         }
 
         getStatus() {
@@ -25,37 +25,48 @@
     }
 
     class SwitchButton {
-        constructor(status, lamp) {
-            this.status = status;
-            this.lamp = lamp;
+        constructor() {
+            this.status = false;
+            this.lamp = null;
+        }
+
+        getStatus() {
+            return this.status;
         }
 
         connectToLamp(ElectricLamp) {
             this.lamp = ElectricLamp;
         }
 
-        switchOff(ElectricLamp) {
-            ElectricLamp.turnOff();
+        switchOff() {
+            this.status = false;
+            this.lamp.turnOff();
         }
 
-        switchOn(ElectricLamp) {
-            ElectricLamp.turnOn();
+        switchOn() {
+            this.status = true;
+            this.lamp.turnOn();
         }
 
 
     }
 
-    let denPin = new ElectricLamp(true);
-    let congTac = new SwitchButton(true, denPin);
+    let denPin = new ElectricLamp();
+    let congTac = new SwitchButton();
 
     congTac.connectToLamp(denPin);
     console.log(denPin.getStatus());
+    console.log(congTac.getStatus());
 
-    congTac.switchOff(denPin);
+    congTac.switchOn();
     console.log(denPin.getStatus());
+    console.log(congTac.getStatus());
 
-    congTac.switchOn(denPin);
+    congTac.switchOff();
     console.log(denPin.getStatus());
+    console.log(congTac.getStatus());
+
+
 
 
 </script>

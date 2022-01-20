@@ -37,15 +37,7 @@
         }
 
         isMale() {
-            if (this.gender === 'male') {
-                return true;
-            } else {
-                return false;
-            }
-        }
-
-        setGender(value) {
-            this.gender = value;
+            return this.gender === 'male';
         }
 
         getName() {
@@ -65,15 +57,19 @@
         }
 
         say(something) {
-            console.log('human said: ' + something);
+            console.log(this.name + ':' + something);
         }
 
         checkApple(Apple) {
-            console.log(Apple.getWeight());
+            if (Apple.isEmpty()) {
+                return false;
+            } else {
+                return true;
+            }
         }
 
         eat(Apple) {
-            if (Apple.getWeight() !== 0) {
+            if (this.checkApple(Apple)) {
                 this.weight++;
                 Apple.decrease();
             }
@@ -90,15 +86,21 @@
     console.log(adam.isMale());
     adam.say('cho xin trái táo');
     adam.checkApple(apple);
-    adam.eat(apple)
+    adam.eat(apple);
     adam.checkApple(apple);
-    console.log(adam.getWeight())
+    console.log(adam.getWeight());
 
 
     console.log(eva.getName());
     console.log(eva.getWeight());
-    console.log(eva.isMale());
     eva.say('cứ lấy đi');
+    eva.eat(apple)
+    eva.eat(apple)
+    eva.eat(apple)
+    console.log(eva.getWeight());
+
+    console.log(apple.getWeight())
+
 
 
 </script>
