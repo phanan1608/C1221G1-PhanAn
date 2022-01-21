@@ -6,11 +6,10 @@
 </head>
 <body>
 <script>
-    let s1 = 'aafdbcc';
-    let s2 = 'caaedcba';
+    let s1 = 'aabcc';
+    let s2 = 'adcaac';
     let c = '';
     let result = commonCharacterCount(s1, s2);
-    alert(result);
 
     function commonCharacterCount(s1, s2) {
         let count = 0;
@@ -18,9 +17,9 @@
             for (let j = 0; j < s2.length; j++) {
                 if (s1[i] == s2[j]) {
                     count++;
-                    s1 = s1.replace(s1[i], '');
+                    // s1 = s1.replace(s1[i], '');
                     s2 = s2.replace(s2[j], '');
-                    i--;
+                    j--;
                     break;
 
                 }

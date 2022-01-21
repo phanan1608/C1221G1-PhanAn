@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let m = parseInt(prompt('Nhập vào số m'));
+    let n = parseInt(prompt('Nhập vào số n'));
+    let arr = [];
+    for (let i = 0; i < m; i++) {
+        arr[i] = [];
+        for (let j = 0; j < n; j++) {
+            arr[i][j] = Math.floor(Math.random() * 10);
+        }
+    }
+
+    let result = tinhTongSoChan(arr);
+    console.log(arr);
+    console.log(result);
+
+    function tinhTongSoChan(arr) {
+        let total = 0;
+        for (let i = 0; i < arr.length; i++) {
+            for (let j = 0; j < arr[i].length; j++) {
+                console.log(arr[i][j])
+                if (arr[i][j] % 2 === 0) {
+                    total += arr[i][j];
+                }
+            }
+        }
+        return total;
+    }
+</script>
+
+</body>
+</html>
