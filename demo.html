@@ -6,40 +6,10 @@
 </head>
 <body>
 <script>
-    function timeConversion(s) {
-        // Write your code here
-        let a = '';
-        let b = parseInt(s.substring(0, 2));
-        a = s.substring(2, 8);
-        for (let i = 0; i < s.length; i++) {
-            if (s[8] == 'A') {
-
-                if (b === 12) {
-                    a = '00' + a;
-                } else if (b < 10) {
-                    a = '0' + b + a;
-                } else {
-                    a = b + a;
-                }
-            }
-            if (s[8] == 'P') {
-
-
-                if (b >= 1 && b <= 11) {
-                    b += 12;
-                }
-                a = b + a;
-
-
-            }
-        }
-        return a;
-
-    }
-
-    let a = timeConversion('01:01:00PM');
-    console.log(a);
+    let a = 1
+    let str = ''
+    str +=a
+    alert(typeof str)
 </script>
-
 </body>
 </html>

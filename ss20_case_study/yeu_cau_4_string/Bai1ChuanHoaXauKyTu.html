@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    // 'tRuong    TaN   HAI ';
+
+
+    function chuanHoaKyTu(str) {
+
+        str = str.toLowerCase();
+        str = str.trim();
+
+
+        for (let i = 0; i < str.length; i++) {
+            if (str[i] === ' ' && str[i + 1] === ' ') {
+                str = str.substring(0, i) + str.substring(i + 1, str.length);
+                i--;
+            }
+        }
+        let result = str[0].toUpperCase();
+        for (let i = 1; i < str.length; i++) {
+            if (str[i - 1] === ' ') {
+                result += str[i].toUpperCase();
+            } else {
+                result += str[i];
+            }
+        }
+        return result;
+
+    }
+
+    let a = chuanHoaKyTu('  tRuong    TaN   HAI ');
+    console.log(a);
+
+
+</script>
+</html>

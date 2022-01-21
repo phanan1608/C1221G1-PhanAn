@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let numerators = [50, 2, 500];
+    let denominators = [6, 3, 4];
+
+    function maxFraction(numerators, denominators) {
+        let max = numerators[0] / denominators[0];
+        let indexMax = 0;
+        for (let i = 0; i < numerators.length; i++) {
+            if (numerators[i] / denominators[i] > max) {
+                max = numerators[i] / denominators[i];
+                indexMax = i;
+            }
+        }
+        return indexMax;
+    }
+
+    let result = maxFraction(numerators, denominators);
+    alert(result);
+</script>
+</body>
+</html>

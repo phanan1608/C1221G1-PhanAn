@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = differentSymbolsNaive('abcddbca');
+    alert(a);
+
+    function differentSymbolsNaive(s) {
+        for (let i = 0; i < s.length - 1; i++) {
+            for (let j = i + 1; j < s.length; j++) {
+                if (s[i] === s[j]) {
+                    s = s.substring(0, j) + s.substring(j + 1, s.length);
+                    j--;
+                }
+            }
+        }
+        return s.length
+    }
+</script>
+</body>
+</html>

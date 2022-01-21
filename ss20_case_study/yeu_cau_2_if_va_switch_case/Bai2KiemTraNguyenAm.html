@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Viết chương trình kiểm tra một ký tự trong bảng chữ cái tiếng anh là nguyên âm hay phụ âm. Ký tự là bất kỳ được nhập từ-->
+<!--bàn phím. Các ký tự nguyên âm bao gồm: 'o', 'u', 'i', 'a', 'e' hoặc 'O', 'U', 'I', 'A', 'E'-->
+
+<script>
+    // let input = prompt('Nhập vào các ký tự để kiểm tra: ');
+    // console.log(a);
+    // console.log(typeof a);
+    let input = prompt('Nhập vào các ký tự để kiểm tra: ');
+
+    function kiemTraNguyenAm(input) {
+
+        let isNguyenAm = false;
+        let arr = ['o', 'u', 'i', 'a', 'e', 'O', 'U', 'A', 'E'];
+
+        for (let i = 0; i < arr.length; i++) {
+            if (input == arr[i]) {
+                isNguyenAm = true;
+                break;
+            }
+        }
+        return isNguyenAm;
+    }
+
+    let result = kiemTraNguyenAm(input);
+    alert(result);
+</script>
+</body>
+</html>

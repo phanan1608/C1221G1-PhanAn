@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Khi người dùng lựa chọn 1 trong số các thức uống, chương trình sẽ hiện đơn giá của thức uống đó và cho phép người dùng-->
+<!--nhập số lượng. Cuối cùng hiển thị tổng số tiền người dùng cần phải trả.-->
+
+<!--<input placeholder="Nhập vào đồ uống" type="text">-->
+<!--<input type="button" value="">-->
+
+<script>
+    let doUong = ['Cafe', 'Cam vắt', 'Nước ép cà rốt', 'Nước ép cà chua', 'Nước lọc', 'Nước dừa'];
+    let gia = [10000, 20000, 15000, 15000, 5000, 20000];
+    let orderMon = 0;
+    let orderSoLuong = 0;
+    let total = 0;
+
+    do {
+        orderMon = parseInt(prompt('Nhập số đồ uống bạn muốn:' + '\n' + '1.Cafe 2.Cam vắt 3.Nước ép cà rốt' + '\n' + '4.Nước ép cà chua ' +
+            '5.Nước lọc 6. Nước dừa' + '\n' + '7.Thoát'));
+        for (let i = 0; i < doUong.length; i++) {
+            if (orderMon - 1 === i) {
+                orderSoLuong = parseInt(prompt('Món ' + doUong[i] + ' có giá: ' + gia[i] + 'VNĐ' + '\n' + 'Vui lòng nhập vào số lượng'));
+                total += gia[i] * orderSoLuong;
+            }
+        }
+    } while (orderMon != 7);
+    alert('Tổng tiền là: ' + total + 'VNĐ');
+
+</script>
+</body>
+</html>

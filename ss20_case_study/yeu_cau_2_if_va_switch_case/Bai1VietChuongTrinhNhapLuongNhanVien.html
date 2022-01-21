@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Viết một chương trình để nhập lương nhân viên, tính thuế thu nhập và lương ròng (số tiền lương thực sự mà nhân viên đó-->
+<!--nhận được). Với các thông số giả sử như sau (không theo luật lương, chỉ là con số giả sử để dễ tính toán):-->
+<!--20% thuế thu nhập nếu lương là 15 triệu.-->
+<!--10% thuế thu nhập nếu lương từ 7 đến 15 triệu.-->
+<!--5% thuế thu nhập nếu lương dưới 7 triệu-->
+<script>
+    function tinhLuong(salary) {
+
+        let tax;
+        if (salary >= 15000000) {
+            tax = salary * 0.2;
+        } else if (salary >= 7000000) {
+            tax = salary * 0.1;
+        } else {
+            tax = salary * 0.05;
+        }
+        return salary - tax;
+    }
+
+    let salary = parseInt(prompt('Nhập lương nhân viên'));
+    let netSalary = tinhLuong(salary);
+    alert('Tổng lương ròng nhận được là: ' + netSalary);
+</script>
+
+
+</body>
+</html>
