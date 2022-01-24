@@ -20,12 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ae1fb52-7690-4dd5-9aa0-5c6350ccb0e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss20_case_study/yeu_cau_1_ve_hinh/Bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss20_case_study/yeu_cau_1_ve_hinh/Bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss20_case_study/yeu_cau_1_ve_hinh/Bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss20_case_study/yeu_cau_1_ve_hinh/Bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss20_case_study/yeu_cau_7/YeuCau7.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss20_case_study/yeu_cau_5_mang_2_chieu/Bai1TinhTongSoChan.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss20_case_study/yeu_cau_5_mang_2_chieu/Bai1TinhTongSoChan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss20_case_study/yeu_cau_5_mang_2_chieu/Bai3HamMinMaxMang2Chieu.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss20_case_study/yeu_cau_5_mang_2_chieu/Bai3HamMinMaxMang2Chieu.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,6 +117,8 @@
       <workItem from="1642641463506" duration="21799000" />
       <workItem from="1642729400070" duration="28554000" />
       <workItem from="1642810458076" duration="2287000" />
+      <workItem from="1642988387391" duration="2582000" />
+      <workItem from="1643016807625" duration="59000" />
     </task>
     <servers />
   </component>
