@@ -3,10 +3,147 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        #heading {
+            display: flex;
+            flex-direction: row;
+            align-items: start;
+            gap: 350px;
+            justify-content: start;
+            border-bottom: 5px solid #282781;
+        }
+
+        /*img {align-self: start}*/
+        /*h2{ margin-left: 100px}*/
+
+        h1 {
+            color: #282781
+        }
+
+        #menu {
+            border-right: 5px solid #282781;
+            width: 300px;
+            height: 800px;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+            gap: 50px;
+        }
+        .dropdown2 {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+            gap: 50px;
+        }
+
+        .dropbtn {
+            background-color: #282781;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        /* The container <div> - needed to position the dropdown content */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Dropdown Content (Hidden by Default) */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 300px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        /* Links inside the dropdown */
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        /* Change color of dropdown links on hover */
+        .dropdown-content a:hover {
+            background-color: #f1f1f1
+        }
+
+        /* Show the dropdown menu on hover */
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        /* Change the background color of the dropdown button when the dropdown content is shown */
+        .dropdown:hover .dropbtn {
+            background-color: #0a7bd0;
+        }
+
+    </style>
 </head>
 <body>
-<script>
-    
-</script>
+<div id='heading'>
+    <img src="http://static.ybox.vn/2021/9/2/1630979933855-icon_1024x1024%20(1).png" width="65">
+    <h1> HỆ THỐNG QUẢN LÝ BÀI TẬP CASESTUDY MODULE 1</h1>
+</div>
+
+<div id="menu">
+    <div class="dropdown2">
+        <div class="dropdown">
+            <button class="dropbtn">Yêu cầu 1</button>
+            <div class="dropdown-content">
+                <a href="https://james.codegym.vn/my/">Bài 1</a>
+                <a href="https://james.codegym.vn/my/">Bài 2</a>
+                <a href="https://james.codegym.vn/my/">Bài 3</a>
+            </div>
+        </div>
+
+
+        <div class="dropdown">
+            <button class="dropbtn">Yêu cầu 2</button>
+            <div class="dropdown-content">
+                <a href="https://james.codegym.vn/my/">Bài 1</a>
+                <a href="https://james.codegym.vn/my/">Bài 2</a>
+                <a href="https://james.codegym.vn/my/">Bài 3</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn">Yêu cầu 3</button>
+            <div class="dropdown-content">
+                <a href="https://james.codegym.vn/my/">Bài 1</a>
+                <a href="https://james.codegym.vn/my/">Bài 2</a>
+                <a href="https://james.codegym.vn/my/">Bài 3</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn">Yêu cầu 4</button>
+            <div class="dropdown-content">
+                <a href="https://james.codegym.vn/my/">Bài 1</a>
+                <a href="https://james.codegym.vn/my/">Bài 2</a>
+                <a href="https://james.codegym.vn/my/">Bài 3</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn">Yêu cầu 5</button>
+            <div class="dropdown-content">
+                <a href="https://james.codegym.vn/my/">Bài 1</a>
+                <a href="https://james.codegym.vn/my/">Bài 2</a>
+                <a href="https://james.codegym.vn/my/">Bài 3</a>
+            </div>
+        </div>
+    </div>
+
+</div>
 </body>
 </html>
