@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class TaiKhoanNganHang {
+        constructor(maTaiKhoan, tenChu, tenNganHang, tongTien) {
+            this.maTaiKhoan = maTaiKhoan;
+            this.tenChu = tenChu;
+            this.tenNganHang = tenNganHang;
+            this.tongTien = tongTien;
+        }
+
+        getMaTaiKhoan() {
+            return this.maTaiKhoan;
+        }
+
+        setMaTaiKhoan(value) {
+            this.maTaiKhoan = value;
+        }
+
+        getTenChu() {
+            return this.tenChu;
+        }
+
+        setTenChu(value) {
+            this.tenChu = value;
+        }
+
+        getTenNganHang() {
+            return this.tenNganHang;
+        }
+
+        setTenNganHang(value) {
+            this.tenNganHang = value;
+        }
+
+        getTongTien() {
+            return this.tongTien;
+        }
+
+        setTongTien(value) {
+            this.tongTien = value;
+        }
+
+        toString() {
+            return ('Mã tài khoản: ' + this.getMaTaiKhoan() + '; Tên chủ sở hữu: ' + this.getTenChu() +
+                '; Tên Ngân Hàng: ' + this.getTenNganHang() + '; Tổng tiền: ' + this.getTongTien());
+        }
+    }
+
+    let taiKhoan1 = new TaiKhoanNganHang(10329, 'An Phan', 'Techcom', 1234567);
+    console.log(taiKhoan1);
+    console.log(taiKhoan1.toString());
+    taiKhoan1.setTenChu('Phan AN');
+    console.log(taiKhoan1.toString());
+
+
+</script>
+</body>
+</html>
