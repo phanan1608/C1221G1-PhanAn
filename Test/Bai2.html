@@ -6,12 +6,9 @@
 </head>
 <body>
 <script>
-    function chuanHoaKyTu(str) {
-
+    function nomalize(str) {
         str = str.toLowerCase();
         str = str.trim();
-
-
         for (let i = 0; i < str.length; i++) {
             if (str[i] === ' ' && str[i + 1] === ' ') {
                 str = str.substring(0, i) + str.substring(i + 1, str.length);
@@ -27,11 +24,10 @@
             }
         }
         return result;
-
     }
 
-    function vietTat(str) {
-        str = chuanHoaKyTu(str);
+    function abbreviation(str) {
+        str = nomalize(str);
         let newStr = str[0];
         for (let i = 0; i < str.length; i++) {
             if (str[i] === ' ') {
@@ -42,7 +38,8 @@
         return newStr;
     }
 
-    let result = vietTat('  obj ect Oriented programming');
+    let result = abbreviation('  object Oriented programming');
+    document.write(result);
 
 </script>
 
