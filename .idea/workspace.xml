@@ -20,11 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ae1fb52-7690-4dd5-9aa0-5c6350ccb0e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Test/Bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/Bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/Bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/Bai4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/QuanLyXeMay.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Bai3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Bai3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Bai4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Bai4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,19 +62,19 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CodeGym\module1\ss20_case_study\YeuCau6" />
+      <recent name="D:\CodeGym\module1" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\CodeGym\module1\ss13_mang2\bai_tap" />
       <recent name="D:\CodeGym\module1\ss11_cau_truc_lap2\bai_tap\luyen_tap2" />
       <recent name="D:\CodeGym\module1\ss11_cau_truc_lap2\bai_tap\luyen_tap1" />
       <recent name="D:\CodeGym\module1\ss11_cau_truc_lap2\bai_tap" />
       <recent name="D:\CodeGym\module1\ss10_cau_truc_lap1\thuc_hanh" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\CodeGym\module1\ss20_case_study\YeuCau6" />
-      <recent name="D:\CodeGym\module1" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.Bai2TimSoNguyenToTrongMang.html">
@@ -130,6 +130,17 @@
       <workItem from="1643550327693" duration="1603000" />
       <workItem from="1643627799270" duration="2768000" />
       <workItem from="1644293101430" duration="70000" />
+      <workItem from="1644295865282" duration="3206000" />
+      <workItem from="1644299113870" duration="143000" />
+      <workItem from="1644299274291" duration="217000" />
+      <workItem from="1644299533480" duration="92000" />
+      <workItem from="1644299644815" duration="81000" />
+      <workItem from="1644299740421" duration="40000" />
+      <workItem from="1644299795176" duration="524000" />
+      <workItem from="1644300342261" duration="478000" />
+      <workItem from="1644300843569" duration="1590000" />
+      <workItem from="1644306317237" duration="1281000" />
+      <workItem from="1644374318889" duration="6317000" />
     </task>
     <servers />
   </component>
@@ -153,6 +164,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="395" y="91" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1642766908699" />
+    <state x="654" y="275" key="#Notifications" timestamp="1644296302325">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="654" y="275" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1644296302325" />
     <state x="524" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1641804899767">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -233,10 +248,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1642767913066" />
-    <state x="277" y="57" width="1070" height="709" key="SettingsEditor" timestamp="1641709336205">
+    <state x="456" y="115" width="1070" height="709" key="SettingsEditor" timestamp="1644377050705">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="57" width="1070" height="709" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1641709336205" />
+    <state x="456" y="115" width="1070" height="709" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1644377050705" />
+    <state x="618" y="327" key="VCS.ChangelistChooser" timestamp="1644307006083">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="618" y="327" key="VCS.ChangelistChooser/0.0.1536.824@0.0.1536.824" timestamp="1644307006083" />
     <state x="479" y="14" width="578" height="795" key="find.popup" timestamp="1641660964339">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

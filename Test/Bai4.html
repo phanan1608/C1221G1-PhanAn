@@ -5,6 +5,11 @@
     <title>Title</title>
 </head>
 <body>
+<input type="text" id="maTaiKhoan" placeholder="Mã Tài Khoản">
+<input type="text" id="tenChuTaiKhoan" placeholder="Tên Chủ Tài Khoản">
+<input type="text" id="tenNganHang" placeholder="Tên Ngân Hàng">
+<input type="button" id="luu" value="Lưu"  onclick="luu()">
+
 <script>
     class TaiKhoanNganHang {
         constructor(maTaiKhoan, tenChu, tenNganHang, tongTien) {
@@ -57,6 +62,31 @@
     console.log(taiKhoan1.toString());
     taiKhoan1.setTenChu('Phan AN');
     console.log(taiKhoan1.toString());
+
+    function hienThi(danhSach) {
+        let bang = '<table border="1" style="border-collapse: collapse">\n' +
+            '    <tr>\n' +
+            '        <th>STT</th>\n' +
+            '        <th>Biển số</th>\n' +
+            '        <th>Chủ sở hữu</th>\n' +
+            '        <th>Dung tích xi lanh</th>\n' +
+            '        <th>Edit</th>\n' +
+            '        <th>Xóa</th>\n' +
+            '    </tr>';
+        for (let i = 0; i < danhSach.length; i++) {
+            bang += ' <tr>\n' +
+                '        <td>' + (i + 1) + '</td>\n' +
+                '        <td>' + danhSach[i].getBienSo() + '</td>\n' +
+                '        <td>' + danhSach[i].getChuSoHuu() + '</td>\n' +
+                '        <td>' + danhSach[i].getDungTichXL() + '</td>\n' +
+                '        <td><input type="button" value="Chỉnh Sửa" onclick="suaXe(' + i + ')"></td>\n' +
+                '        <td> <input type="button" value="Xóa" onclick="xoaXe(' + i + ')"></td>\n' +
+                '       \n' +
+                '    </tr>'
+        }
+        bang += '</table>'
+        document.getElementById("ketQua").innerHTML = bang;
+    }
 
 
 </script>

@@ -6,20 +6,18 @@
 </head>
 <body>
 <script>
-    let arrFb = [0, 1];
-    let soTiepTheo;
-    let a = 0;
-    let b = 1;
-    for (let count = 2; count < 20; count++) {
-        soTiepTheo = a + b;
-        a = b;
-        b = soTiepTheo;
-        arrFb.push(b);
-    }
-    console.log(arrFb);
-
-
     function timSoFibonacci(arr) {
+        let arrFb = [0, 1];
+        let soTiepTheo;
+        let a = 0;
+        let b = 1;
+        for (let count = 2; count < 20; count++) {
+            soTiepTheo = a + b;
+            a = b;
+            b = soTiepTheo;
+            arrFb.push(b);
+        }
+        console.log(arrFb);
         let result = [];
         for (let i = 0; i < arr.length; i++) {
             for (let j = 0; j < arrFb.length; j++) {
