@@ -32,5 +32,6 @@ public class Main {
             System.out.printf("%-20.2f%s", bmi, "Overweight");
         else
             System.out.printf("%-20.2f%s", bmi, "Obese");
+        
     }
 }
