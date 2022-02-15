@@ -1,4 +1,4 @@
-package ss1.thuc_hanh_3_su_dung_toan_tu;
+package ss1_intro_java.thuc_hanh.thuc_hanh_3_su_dung_toan_tu;
 
 import java.util.Scanner;
 

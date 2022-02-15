@@ -1,4 +1,4 @@
-package ss1.thuc_hanh_2_khai_bao_va_su_dung_bien;
+package ss1_intro_java.thuc_hanh.thuc_hanh_2_khai_bao_va_su_dung_bien;
 
 public class Main {
     public static void main(String[] args) {

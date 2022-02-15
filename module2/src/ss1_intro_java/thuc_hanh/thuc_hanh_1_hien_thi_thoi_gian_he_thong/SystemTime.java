@@ -1,4 +1,4 @@
-package ss1.thuc_hanh_1_hien_thi_thoi_gian_he_thong;
+package ss1_intro_java.thuc_hanh.thuc_hanh_1_hien_thi_thoi_gian_he_thong;
 
 import java.util.Date;
 
