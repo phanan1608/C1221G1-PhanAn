@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            font-family: "Open Sans";
+        }
+
+        h1 {
+            color: #282780;
+            text-align: center;
+            font-size: 40px;
+        }
+
+        table {
+            width: 100%;
+            text-align: center;
+            font-size: 20px;
+            border-collapse: collapse;
+        }
+
+        th {
+            height: 50px;
+            background-color: #282780;
+            color: #ffffff;
+        }
+
+        td {
+            height: 50px;
+        }
+
+        input {
+            background-color: #282780;
+            color: #fefefe;
+            font-size: 22px;
+            width: 300px;
+            height: 40px;
+            border: #0a7bd0 solid 2px;
+        }
+
+        #chucNang {
+            display: flex;
+            gap: 50px;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+<h1>QUẢN LÝ SÁCH</h1>
+<p id="ketQua"></p>
+<div id="chucNang"><input id="themSach" onclick="themSachMoi()" type="button" value="Thêm Sách Mới">
+    <input id="themSachCu" type="button" value="Thêm Sách Đã Có">
+    <input id="muonSach" type="button" value="Mượn Sách">
+    <input id="hienThiSachNhieuNhat" type="button" value="Hiển Thị Sách Nhiều Nhất">
+</div>
+<script>
+    class Sach {
+        constructor(maSoSach, tenSach, namXuatBan, soQuyen) {
+            this.maSoSach = maSoSach;
+            this.tenSach = tenSach;
+            this.namXuatBan = namXuatBan;
+            this.soQuyen = soQuyen;
+            this.tinhTrang = soQuyen !== 0;
+        }
+        getMaSoSach() {
+            return this.maSoSach;
+        }
+        setMaSoSach(value) {
+            this.maSoSach = value;
+        }
+        getTenSach() {
+            return this.tenSach;
+        }
+        setTenSach(value) {
+            this.tenSach = value;
+        }
+        getNamXuatBan() {
+            return this.namXuatBan;
+        }
+        setNamXuatBan(value) {
+            this.namXuatBan = value;
+        }
+        getSoQuyen() {
+            return this.soQuyen;
+        }
+        setSoQuyen(value) {
+            this.soQuyen = value;
+        }
+        getTinhTrang() {
+            return this.tinhTrang;
+        }
+        setTinhTrang(value) {
+            this.tinhTrang = value;
+        }
+    }
+    let sach1 = new Sach(16897, "Cha Giàu, Cha Nghèo", 1997, 52);
+    let sach2 = new Sach(55197, "7 Thói Quen Thành Công", 2013, 45);
+    let sach3 = new Sach(26197, "Đắc Nhân Tâm", 2013, 40);
+    let sach4 = new Sach(37197, "Thần Số Học", 2017, 30);
+    let sach5 = new Sach(58197, "Nhà Giả Kim", 2019, 0);
+    let danhSachSach = [sach1, sach2, sach3,sach4,sach5];
+    hienThi(danhSachSach);
+    function hienThi(sach) {
+        let hienThiSach = '<table border="1px">\n' +
+            '    <tr>\n' +
+            '        <th>STT</th>\n' +
+            '        <th>Mã Số Sách</th>\n' +
+            '        <th>Tên Sách</th>\n' +
+            '        <th>Năm Sản Xuất</th>\n' +
+            '        <th>Số Quyển</th>\n' +
+            '        <th>Tình trạng</th>\n' +
+            '    </tr>';
+        for (let i = 0; i < sach.length; i++) {
+            hienThiSach += ' <tr>\n' +
+                '        <td>' + (i + 1) + '</td>\n' +
+                '        <td>' + sach[i].getMaSoSach() + '</td>\n' +
+                '        <td>' + sach[i].getTenSach() + '</td>\n' +
+                '        <td>' + sach[i].getNamXuatBan() + '</td>\n' +
+                '        <td>' + sach[i].getSoQuyen() + '</td>\n' +
+                '        <td>' + sach[i].getTinhTrang() + '</td>\n' +
+                '       \n' +
+                '    </tr>';
+        }
+        hienThiSach += '</table>';
+        document.getElementById("ketQua").innerHTML = hienThiSach;
+    }
+    function themSachMoi() {
+        let maSoSach;
+        do {
+            maSoSach = prompt('Nhập mã số sách');
+            if (isNaN(maSoSach) || maSoSach <= 10000 || maSoSach >= 59999) {
+                alert("vui lòng nhập lại (Mã số sách trong khoảng từ 10000 đến 59999");
+            } else {
+                break;
+            }
+        } while (true);
+        let tenSach = prompt('Nhập tên sách');
+        let namXuatBan;
+        do {
+            namXuatBan = prompt('Nhập năm xuất bản');
+            if (isNaN(namXuatBan) || namXuatBan > 9999 || namXuatBan < 0) {
+                alert("Vui lòng nhập lại (Năm xuất bản có 4 chữ số");
+            } else {
+                break;
+            }
+        } while (true);
+        let soQuyen = parseInt(prompt('Nhập số quyển'));
+        let sachMoi = new Sach(maSoSach, tenSach, namXuatBan, soQuyen);
+        danhSachSach.push(sachMoi);
+        hienThi(danhSachSach);
+    }
+</script>
+</body>
+</html>

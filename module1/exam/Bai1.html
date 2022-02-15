@@ -7,27 +7,30 @@
 <body>
 <script>
     let size;
-    let total = 0;
     let arr = [];
+    let total = 0;
     let avg;
     let count = 0;
     do {
         size = prompt('Nhập vào độ dài mảng');
-    } while (isNaN(size) || size > 50 || size < 0);
-
+        if (isNaN(size) || size > 50 || size < 0) {
+            alert("Vui lòng nhập kí tự số nhỏ hơn hoặc bằng 50");
+        } else {
+            break;
+        }
+    } while (true);
     for (let i = 0; i < size; i++) {
         arr[i] = parseInt(prompt('Nhận vào giá trị phần tử vị trí Index = ' + i));
     }
     console.log(arr);
-
     for (let i = 0; i < arr.length; i++) {
-        if ((i % 3) === 0 && (arr[i] % 5) === 0) {
+        if ((i % 2) === 0 && arr[i] % 2 !== 0) {
             total += arr[i];
             count++;
         }
     }
     avg = total / count;
-    console.log('trung bình = ' + avg);
+    console.log('Trung bình các số vị trí chẵn = ' + avg);
 </script>
 </body>
 </html>

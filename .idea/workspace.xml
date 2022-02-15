@@ -20,46 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ae1fb52-7690-4dd5-9aa0-5c6350ccb0e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demo/Demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/Bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/Bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/Bai3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/Bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Bai1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Bai2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Bai2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Bai3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Bai3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/Bai4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Bai4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap1/Bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap1/Bai1DemTu1Den100.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap1/Bai2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap1/Bai2TangGiamNhietDo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap1/Bai3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap1/Bai3HienThi20SoFibonacciDauTien.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap1/Bai4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap1/Bai4TimSoDauTienFibonacciChiaHet5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap1/Bai5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap1/Bai5Tong20SoDauTienFibonacci.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap1/Bai6.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap1/Bai6TinhTong30SoDauTienChiaHet7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap1/Bai7.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap1/Bai7FizzBuzz.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap1/Bai8.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap1/Bai8GameDoanSo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss13_mang2/bai_tap/luyen_tap1/Bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang2/bai_tap/luyen_tap1/Bai1TongCacSoLonHon10TrongMang.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss13_mang2/bai_tap/luyen_tap1/Bai2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang2/bai_tap/luyen_tap1/Bai2TimMaxMang.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss13_mang2/bai_tap/luyen_tap1/Bai3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang2/bai_tap/luyen_tap1/Bai3TinhTrungBinhCacPhanTuMang.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss13_mang2/bai_tap/luyen_tap1/Bai4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang2/bai_tap/luyen_tap1/Bai4DaoNguocMang.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss13_mang2/bai_tap/luyen_tap1/Bai5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang2/bai_tap/luyen_tap1/Bai5DemSoNguyenAm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss13_mang2/bai_tap/luyen_tap1/Bai6.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang2/bai_tap/luyen_tap1/Bai6TimPhanTuTrongMang.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss13_mang2/bai_tap/luyen_tap1/Bai7.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang2/bai_tap/luyen_tap1/Bai7XoaPhanTuTrongMang.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss13_mang2/bai_tap/luyen_tap1/Bai8.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang2/bai_tap/luyen_tap1/Bai8SapXepMangGiamDan.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss13_mang2/bai_tap/luyen_tap1/Bai9.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang2/bai_tap/luyen_tap1/Bai9Noi2Mang.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_thuc_hanh_conditional/bai_tap/luyen_tap1/Bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_thuc_hanh_conditional/bai_tap/luyen_tap1/Bai1KiemTraChiaHet.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_thuc_hanh_conditional/bai_tap/luyen_tap1/Bai2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_thuc_hanh_conditional/bai_tap/luyen_tap1/Bai2KiemTraTuoi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_thuc_hanh_conditional/bai_tap/luyen_tap1/Bai3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_thuc_hanh_conditional/bai_tap/luyen_tap1/Bai3KiemTraLonHon0.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_thuc_hanh_conditional/bai_tap/luyen_tap1/Bai4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_thuc_hanh_conditional/bai_tap/luyen_tap1/Bai4TimGiaTriLonNhat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_thuc_hanh_conditional/bai_tap/luyen_tap1/Bai5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_thuc_hanh_conditional/bai_tap/luyen_tap1/Bai5XepHangHocLuc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_thuc_hanh_conditional/bai_tap/luyen_tap1/Bai6.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_thuc_hanh_conditional/bai_tap/luyen_tap1/Bai6TinhHoaHong.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_thuc_hanh_conditional/bai_tap/luyen_tap1/Bai7.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_thuc_hanh_conditional/bai_tap/luyen_tap1/Bai7TinhCuocDienThoai.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_thuc_hanh_conditional/bai_tap/luyen_tap2/Bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_thuc_hanh_conditional/bai_tap/luyen_tap2/Bai1ChuyenDoCSangF.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_thuc_hanh_conditional/bai_tap/luyen_tap2/Bai10.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_thuc_hanh_conditional/bai_tap/luyen_tap2/Bai10VietChuongTrinhTinhGiaDien.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_thuc_hanh_conditional/bai_tap/luyen_tap2/Bai11.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_thuc_hanh_conditional/bai_tap/luyen_tap2/Bai11VietChuongTrinhTinhThueThuNhap.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_thuc_hanh_conditional/bai_tap/luyen_tap2/Bai2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_thuc_hanh_conditional/bai_tap/luyen_tap2/Bai2ChuyenMetSangFeet.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_thuc_hanh_conditional/bai_tap/luyen_tap2/Bai3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_thuc_hanh_conditional/bai_tap/luyen_tap2/Bai3TinhDienTichHinhVuong.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_thuc_hanh_conditional/bai_tap/luyen_tap2/Bai4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_thuc_hanh_conditional/bai_tap/luyen_tap2/Bai4TinhDienTichHinhChuNhat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_thuc_hanh_conditional/bai_tap/luyen_tap2/Bai5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_thuc_hanh_conditional/bai_tap/luyen_tap2/Bai5TinhDienTichTamGiacVuong.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_thuc_hanh_conditional/bai_tap/luyen_tap2/Bai6.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_thuc_hanh_conditional/bai_tap/luyen_tap2/Bai6GiaiPhuongTrinhBac1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_thuc_hanh_conditional/bai_tap/luyen_tap2/Bai7.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_thuc_hanh_conditional/bai_tap/luyen_tap2/Bai7GiaiPhuongTrinhBac2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_thuc_hanh_conditional/bai_tap/luyen_tap2/Bai8.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_thuc_hanh_conditional/bai_tap/luyen_tap2/Bai8KiemTraKiemTraSoTuoi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_thuc_hanh_conditional/bai_tap/luyen_tap2/Bai9.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_thuc_hanh_conditional/bai_tap/luyen_tap2/Bai9KiemTra3CanhCuaTamGiac.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/QuanLyXeMay.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/QuanLyXeMay.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss5_html_form_table/thuc_hanh/TaoBangCoBan.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss5_html_form_table/thuc_hanh/TaoBangCoBan.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +60,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/demo" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -97,7 +69,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -177,6 +149,11 @@
       <workItem from="1644306317237" duration="1281000" />
       <workItem from="1644374318889" duration="10050000" />
       <workItem from="1644393603984" duration="1711000" />
+      <workItem from="1644395525002" duration="6241000" />
+      <workItem from="1644465027589" duration="11718000" />
+      <workItem from="1644553787726" duration="4127000" />
+      <workItem from="1644759300418" duration="3331000" />
+      <workItem from="1644806044514" duration="11200000" />
     </task>
     <servers />
   </component>
@@ -288,10 +265,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1642767913066" />
-    <state x="456" y="115" width="1070" height="709" key="SettingsEditor" timestamp="1644384871909">
+    <state x="101" y="115" width="1070" height="709" key="SettingsEditor" timestamp="1644553547258">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="456" y="115" width="1070" height="709" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1644384871909" />
+    <state x="101" y="115" width="1070" height="709" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1644553547258" />
     <state x="618" y="327" key="VCS.ChangelistChooser" timestamp="1644381382017">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -308,6 +285,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1642752050776" />
+    <state x="491" y="324" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1644567893712">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="491" y="324" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1536.824@0.0.1536.824" timestamp="1644567893712" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function kiemTraFibonacci(so) {
+        if (so === 1 || so === 0) {
+            return true;
+        }
+        let a = 0;
+        let b = 1;
+        while (so > b) {
+            let temp = a + b;
+            a = b;
+            b = temp;
+        }
+        return so === b;
+    }
+
+    // function timSoFibonacci(arr) {
+    //     let arrFb = [0, 1];
+    //     let soTiepTheo;
+    //     let a = 0;
+    //     let b = 1;
+    //     for (let count = 2; count < 20; count++) {
+    //         soTiepTheo = a + b;
+    //         a = b;
+    //         b = soTiepTheo;
+    //         arrFb.push(b);
+    //     }
+    function timSoFibonacci(arr) {
+        let result = [];
+        for (let i = 0; i < arr.length; i++) {
+            // for (let j = 0; j < arrFb.length; j++) {
+            if (kiemTraFibonacci(arr[i])) {
+                result.push(arr[i]);
+            }
+            // }
+        }
+        result.sort(function (a, b) {
+            return a - b;
+        });
+        return result;
+    }
+
+    let arr1 = [1, 5, 6, 13, 9, 12, 8, 0, 5, 1];
+    let ketQua = timSoFibonacci(arr1);
+    console.log(ketQua);
+</script>
+
+</body>
+</html>

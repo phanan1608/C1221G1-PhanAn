@@ -18,43 +18,43 @@
             this.chuSoHuu = chuSoHuu;
             this.dungTichXL = dungTichXL;
         }
-    ​
+
         setBienSo(bienSo) {
             this.bienSo = bienSo;
         }
-    ​
+
         getBienSo() {
             return this.bienSo;
         }
-    ​
+
         setChuSoHuu(chuSoHuu) {
             this.chuSoHuu = chuSoHuu;
         }
-    ​
+
         getChuSoHuu() {
             return this.chuSoHuu;
         }
-    ​
+
         setDungTichXL(dungTichXL) {
             this.dungTichXL = dungTichXL;
         }
-    ​
+
         getDungTichXL() {
             return this.dungTichXL;
         }
-    ​
+
         toString() {
             return "biển số : " + this.bienSo + " chủ sở hữu : " + this.chuSoHuu + " dung tính xl : " + this.dungTichXL;
         }
     }
-​
+
     let xe1 = new XeMay("43H1-0000", "Nguyễn Văn A", 100);
     let xe2 = new XeMay("43H1-0002", "Nguyễn Văn B", 100);
     let xe3 = new XeMay("43H1-0003", "Nguyễn Văn C", 100);
     let danhSachXe = [xe1, xe2, xe3];
     hienThi(danhSachXe);
     let idChinhSua;
-​
+
     function themMoi() {
         let bienSo = document.getElementById("bienSo").value;
         let chuSoHuu = document.getElementById("chuSoHuu").value;
@@ -67,7 +67,11 @@
         document.getElementById("dungTichXL").value = "";
     }
 
-​
+    function xoaXe(id) {
+
+
+    }
+
     function suaXe(id) {
         idChinhSua = id;// lưu địa chỉ id cần chỉnh sửa
         document.getElementById("bienSo").value = danhSachXe[id].getBienSo();
@@ -75,9 +79,9 @@
         document.getElementById("dungTichXL").value = danhSachXe[id].getDungTichXL()
         document.getElementById("themMoi").style.display='none';
         document.getElementById("luu").style.display='block';
-​
+
     }
-​
+
     function luu() {
         let bienSo = document.getElementById("bienSo").value;
         let chuSoHuu = document.getElementById("chuSoHuu").value;
@@ -92,7 +96,7 @@
         document.getElementById("dungTichXL").value = "";
         hienThi(danhSachXe);
     }
-​
+
     function hienThi(danhSach) {
         let bang = '<table border="1" style="border-collapse: collapse">\n' +
             '    <tr>\n' +
@@ -117,7 +121,7 @@
         bang += '</table>'
         document.getElementById("ketQua").innerHTML = bang;
     }
-​
+
 </script>
 </body>
 </html>

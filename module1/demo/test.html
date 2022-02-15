@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="maSoSach" placeholder="Mã Số sách">
+<input type="text" id="tenSach" placeholder="Tên Sách">
+<input type="text" id="namXuatBan" placeholder="Năm xuất bản">
+<input type="text" id="soQuyen" placeholder="Số quyển">
+<input type="text" id="tinhTrang" placeholder="Tình trạng">
+<input type="button" id="themMoi" value="Thêm mới " onclick="themMoi()">
+<input type="button" id="luu" value="Lưu" onclick="luu()" style="display: none">
+<p id="ketQua"></p>
+<script>
+    class QuanLySach {
+        constructor(maSoSach, tenSach, namXuatBan, soQuyen, tinhTrang) {
+            this.maSoSach = maSoSach;
+            this.tenSach = tenSach;
+            this.namXuatBan = namXuatBan;
+            this.soQuyen = soQuyen;
+            this.tinhTrang = tinhTrang;
+        }
+
+        setMaSoSach(maSoSach) {
+            this.maSoSach = maSoSach;
+        }
+
+        getMaSoSach() {
+            return this.maSoSach;
+        }
+
+        setTenSach(tenSach) {
+            this.tenSach = tenSach;
+        }
+
+        getTenSach() {
+            return this.tenSach;
+        }
+
+        setNamXuatBan(namXuatBan) {
+            this.namXuatBan = namXuatBan;
+        }
+
+        getNamXuatBan() {
+            return this.namXuatBan;
+        }
+
+        setSoQuyen(soQuyen) {
+            this.soQuyen = soQuyen;
+        }
+
+        getSoQuyen() {
+            return this.soQuyen;
+        }
+
+        setTinhTrang(tinhTrang) {
+            this.tinhTrang = tinhTrang;
+        }
+
+        getTinhTrang() {
+            return this.tinhTrang;
+        }
+
+        toString() {
+            return "Mã số sách : " + this.maSoSach + " Tên sách : " + this.tenSach + " Năm xuất bản : " + this.namXuatBan + " Số quyển : " + this.soQuyen
+                + " Tình trạng : " + this.tinhTrang;
+        }
+    }
+
+    let sach1 = new QuanLySach("12345", "Toán", "2000", "3", true);
+    let sach2 = new QuanLySach("23456", "Văn", "1998", "4", true);
+    let sach3 = new QuanLySach("37456", "Tiếng Anh", "1999", "5", false);
+    let danhSachSach = [sach1, sach2, sach3];
+    hienThi(danhSachSach);
+    let idChinhSua;
+
+    function themMoi() {
+        let maSoSach = document.getElementById("maSoSach").value;
+        let tenSach = document.getElementById("tenSach").value;
+        let namXuatBan = document.getElementById("namXuatBan").value;
+        let soQuyen = document.getElementById("soQuyen").value;
+        let tinhTrang = document.getElementById("tinhTrang").value;
+        let themSachMoi = new QuanLySach(maSoSach, tenSach, namXuatBan, soQuyen, tinhTrang);
+        danhSachSach.push(QuanLySach);
+        hienThi(danhSachSach);
+        document.getElementById("maSoSach").value = "";
+        document.getElementById("tenSach").value = "";
+        document.getElementById("namXuatBan").value = "";
+        document.getElementById("soQuyen").value = "";
+        document.getElementById("tinhTrang").value = "";
+    }
+    function hienThi(danhSach) {
+        let bang = '<table border="1" style="border-collapse: collapse">\n' +
+            '    <tr>\n' +
+            '        <th>Mã số sách</th>\n' +
+            '        <th>Tên sách</th>\n' +
+            '        <th>Năm xuất bản</th>\n' +
+            '        <th>Số quyển</th>\n' +
+            '        <th>Tình trạng</th>\n' +
+            '    </tr>';
+        for (let i = 0; i < danhSach.length; i++) {
+            bang += ' <tr>\n' +
+                '        <td>' + (i + 1) + '</td>\n' +
+                '        <td>' + danhSach[i].getMaSoSach() + '</td>\n' +
+                '        <td>' + danhSach[i].getTenSach() + '</td>\n' +
+                '        <td>' + danhSach[i].getNamXuatBan() + '</td>\n' +
+                '        <td>' + danhSach[i].getSoQuyen() + '</td>\n' +
+                '        <td>' + danhSach[i].getTinhTrang() + '</td>\n' +
+                '       \n' +
+                '    </tr>';
+        }
+        bang += '</table>';
+        document.getElementById("ketQua").innerHTML = bang;
+    }
+</script>
+</body>
+</html>

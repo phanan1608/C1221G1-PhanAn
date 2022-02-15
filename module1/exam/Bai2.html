@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function tinhTongCacUoc(soNguyen) {
+        soNguyen = parseInt(soNguyen);
+        let tong = 0;
+        for (let i = 1; i < soNguyen; i++) {
+            if (soNguyen % i === 0) {
+                tong += i;
+            }
+        }
+        return tong;
+    }
+    function capSoThanThiet(a, b) {
+        let tong1 = tinhTongCacUoc(a);
+        let tong2 = tinhTongCacUoc(b);
+        let kiemTra = false;
+        if (a === tong2 && b === tong1) {
+            kiemTra = true;
+        }
+        console.log('Tổng các ước của ' + a + " là: " + tong1);
+        console.log('Tổng các ước của ' + b + " là: " + tong2);
+        return kiemTra;
+    }
+    let ketQua = capSoThanThiet(284, 220);
+    console.log(ketQua);
+</script>
+</body>
+</html>
